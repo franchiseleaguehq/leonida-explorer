@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0B1018" />
+    <meta name="description" content="Leonida Explorer — the free GTA VI interactive map. Every Street. Every Secret. Every Discovery." />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./icons/icon.svg" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <title>Leonida Explorer — GTA VI Interactive Map</title>
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar">
+        <div class="brand">
+          <span class="brand-mark">LE</span>
+          <span class="brand-text">Leonida <em>Explorer</em></span>
+        </div>
+        <div id="search-wrap">
+          <input id="search" type="search" placeholder="Search places, weapons, vehicles, categories…" autocomplete="off" />
+          <div id="search-results" hidden></div>
+        </div>
+        <div id="progress-chip" title="Overall completion">0%</div>
+      </header>
+
+      <aside id="sidebar">
+        <section class="side-section" id="section-filters">
+          <div class="side-head">
+            <h2>Categories</h2>
+            <div class="side-actions">
+              <button id="show-all" class="mini-btn">Show all</button>
+              <button id="hide-all" class="mini-btn">Hide all</button>
+            </div>
+          </div>
+          <label class="toggle-row"><input type="checkbox" id="hide-found" /> Hide discovered locations</label>
+          <div id="category-list"></div>
+        </section>
+
+        <section class="side-section" id="section-saved">
+          <div class="side-head"><h2>Saved</h2></div>
+          <h3>Favorites</h3>
+          <div id="favorites-list" class="saved-list"></div>
+          <h3>Your markers</h3>
+          <div id="custom-list" class="saved-list"></div>
+          <button id="add-marker-mode" class="action-btn">＋ Add a marker (tap map)</button>
+        </section>
+
+        <section class="side-section" id="section-progress">
+          <div class="side-head"><h2>Progress</h2></div>
+          <div id="progress-summary"></div>
+          <div id="progress-categories"></div>
+          <div class="side-actions">
+            <button id="export-btn" class="action-btn">Export backup</button>
+            <label class="action-btn file-label">Import backup<input id="import-file" type="file" accept="application/json" hidden /></label>
+          </div>
+        </section>
+
+        <section class="side-section" id="section-settings">
+          <div class="side-head"><h2>Settings &amp; About</h2></div>
+          <div id="waypoint-box">
+            <h3>Waypoint</h3>
+            <p class="hint">Set your current in-game position, then pick a destination on any location. Guidance is a straight line — no road routing data exists for Leonida yet.</p>
+            <button id="set-origin-mode" class="action-btn">Set my in-game position (tap map)</button>
+            <button id="clear-waypoint" class="action-btn ghost">Clear waypoint</button>
+            <div id="waypoint-info" class="hint"></div>
+          </div>
+          <div id="about-box">
+            <h3>About</h3>
+            <p class="hint">Free forever. No accounts, no ads, no paywalls. Map data sources, licenses and attribution are documented in the project’s DATA_SOURCES file. Locations are labeled by verification status — approximate and unconfirmed pins are never presented as exact.</p>
+            <p class="hint" id="attribution-line"></p>
+          </div>
+        </section>
+      </aside>
+
+      <main id="map-wrap">
+        <div id="map"></div>
+        <div id="map-controls">
+          <button id="zoom-in" title="Zoom in">＋</button>
+          <button id="zoom-out" title="Zoom out">－</button>
+          <button id="reset-view" title="Reset view — fit whole state">⌂</button>
+          <button id="fullscreen" title="Full screen">⛶</button>
+          <div id="compass" title="North">N▲</div>
+        </div>
+        <div id="coord-readout">—</div>
+      </main>
+
+      <div id="detail-sheet" hidden>
+        <button id="detail-close" aria-label="Close">✕</button>
+        <div id="detail-content"></div>
+      </div>
+
+      <nav id="bottom-nav">
+        <button data-nav="explore" class="active">🗺️<span>Explore</span></button>
+        <button data-nav="filters">🎛️<span>Filters</span></button>
+        <button data-nav="saved">⭐<span>Saved</span></button>
+        <button data-nav="progress">📊<span>Progress</span></button>
+        <button data-nav="settings">⚙️<span>Settings</span></button>
+      </nav>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

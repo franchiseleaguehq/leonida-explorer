@@ -1,0 +1,16 @@
+{
+  "name": "Leonida Explorer — GTA VI Interactive Map",
+  "short_name": "Leonida Explorer",
+  "description": "The free GTA VI interactive map. Every Street. Every Secret. Every Discovery.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B1018",
+  "theme_color": "#0B1018",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
