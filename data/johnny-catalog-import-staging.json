@@ -1,0 +1,858 @@
+{
+ "dataset": "johnny-catalog-import-staging",
+ "count": 37,
+ "note": "STAGING ONLY — not merged into public/data/locations.json and not deployed. Prepared 2026-11-24 from ~/workspace/ts-spaces/gta-6-map/server/src/catalog.ts (Johnny's original 37-pin poster catalog). Every entry is verification=approximate with a region-centroid anchor from the licensed fbritoferreira dataset; no street-exact coordinates were invented.",
+ "locations": [
+  {
+   "id": "johnny-apollo-aggregates",
+   "name": "Apollo Aggregates Warehouse (Teddy Bear Factory)",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Hamlet & the Swamps",
+   "coords": [
+    -606.0,
+    391.4
+   ],
+   "description": "Cash + sellable goods, Type 9 SMG, Duke 556 assault rifle, Kalinga 50 pistol, Leroy Rook collectible card — ~$13,000 in cash/goods + card worth ~$6,000 at a pawn shop",
+   "directions": "Follow the highway south-east out of Hamlet to a gravel industrial yard near three large rectangular pools. Look for the red warehouse with teddy-bear delivery trucks. Check the yellow toolbox outside first, then search the bodies, offices, safes and rear shutter inside. Goods must be sold at a fence (e.g. Brian's Lockup) — the headline figure is not all banked cash.",
+   "verification": "approximate",
+   "source": "Jabba Reviews + GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: SE of Hamlet)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    58.0,
+    71.0
+   ],
+   "anchorNote": "Coords are the centroid of 253 licensed fbritoferreira locations in Hamlet & the Swamps — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-waxman-island-emerus",
+   "name": "Waxman Island Container & Office (Chatfield Storage)",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Purple Drank Progen Emerus supercar in a shipping container, $10,000 cash, silenced pistol, Quarter Mile ES9 — $10,000 cash + a supercar + safe loot",
+   "directions": "Head to Chatfield Storage & Logistics on west Waxman Island. Cut/open the shipping container for the purple Emerus, then clear the office building next door for the $10,000, the silenced pistol and the safe (code 5800). Open the exit gate before you drive the car out.",
+   "verification": "approximate",
+   "source": "GTAVibes + Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Waxman Island, west Vice City)",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    60.0,
+    53.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-hidden-house-vice-city",
+   "name": "Hidden Two-Storey House",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Cash and valuables throughout the house, a safe, an assault rifle and a sports car — $30,000+ in cash and valuables",
+   "directions": "An unmarked two-storey house in Vice City packed room to room. Work through every room, crack the safe, and take the sports car parked with it. Single-source launch-week report — treat the $30,000 figure as reported, not guaranteed.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Vice City (G7 area))",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    66.0,
+    53.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-casa-guardia",
+   "name": "Casa Guardia, Little Cuba",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Guardia Brothers FRA, Nightlight Schafter car, a luxury watch and cash — Cash + watch + car",
+   "directions": "The Guardia brothers' house in Little Cuba. Fight or sneak to the upstairs safe (code 1965), grab the watch and cash, and take the Nightlight Schafter outside.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Little Cuba, Vice City)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    64.0,
+    56.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-nova-auto-junkyard",
+   "name": "Nova Auto Junkyard (M7 Compound)",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Hamlet & the Swamps",
+   "coords": [
+    -606.0,
+    391.4
+   ],
+   "description": "Safe cash and gang-operation valuables — Safe cash + valuables",
+   "directions": "South-east Hamlet, in the M7 junkyard compound. Look for the yellow school bus and the white shutter door. The safe inside opens with 7777. It's a gang operation — expect resistance and check cabinets for the remaining Key Valuables if it won't mark complete.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: SE Hamlet, M7 compound)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    60.0,
+    73.0
+   ],
+   "anchorNote": "Coords are the centroid of 253 licensed fbritoferreira locations in Hamlet & the Swamps — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-rv-park-bunker",
+   "name": "RV Park Bunker",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Rocket launcher, grenades and a gold Type 9 SMG — Heavy weapons, free",
+   "directions": "South-west Vice City, in the RV park across from an Ammu-Nation. Find the ground hatch and drop into the bunker: rocket launcher, grenades and the gold Type 9 SMG. Gold guns go to your weapon locker and stay yours even if you die.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: SW Vice City)",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    62.0,
+    59.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-saber-shipping",
+   "name": "Saber Shipping, Vice City",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Pink MP5 variant and an upstairs office safe — Unique gun + safe cash",
+   "directions": "Saber Shipping near Port Vice City. Grab the pink MP5, then head to the upstairs office and open the safe with 1122.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Port Vice City (H8 area))",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    74.0,
+    57.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-jack-jack-garage",
+   "name": "Jack Jack Garage",
+   "category": "stash-house",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Cash, a safe, drugs to fence, and a pink Declasse Tulip — Cash + goods + car",
+   "directions": "Between La Perle and Rockridge in Vice City. Clear the garage, loot the safe and cash, fence the product, and drive out in the pink Declasse Tulip.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Between La Perle and Rockridge)",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    64.0,
+    48.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-crabshack-vf5",
+   "name": "Crab Research Outpost — Crabshack VF5",
+   "category": "weapon-rare",
+   "county": "Mariana County",
+   "city": "Grassrivers",
+   "coords": [
+    -507.3,
+    391.5
+   ],
+   "description": "Crabshack VF5 custom SMG (permanent), stash bag, safe cash — SMG + $10,000 for returning the stash bag to Donnie + $1,093 safe cash",
+   "directions": "Abandoned research outpost on an island near Pelican Valley — easiest reached by boat from the port behind Jason's house. Use the computer (password CLEAVES) and read the notes, open the safe with 0072, then use code 0212 on the small shack by the dock for the VF5. Take the stash bag beside the body to the drop-off for $10,000.",
+   "verification": "approximate",
+   "source": "Jabba Reviews + MMOAH guide — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Pelican Valley, Gullet Marsh)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    38.0,
+    60.0
+   ],
+   "anchorNote": "Coords are the centroid of 16 licensed fbritoferreira locations in Grassrivers — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-assassin-nipper",
+   "name": "Assassin Nipper .38 (Suppressed Pistol)",
+   "category": "weapon-rare",
+   "county": "Leonida Keys",
+   "city": "Leonida Keys",
+   "coords": [
+    -583.5,
+    402.6
+   ],
+   "description": "Assassin Nipper .38 suppressed pistol — unique, permanent — Free legendary pistol",
+   "directions": "Take a boat or jet ski to the Permit Keys, the small islands south of Key Lento. On the southern tip of the south-eastern island, search the wrecked wooden boat on the sand — the pistol is in a floor hatch inside the wreck.",
+   "verification": "approximate",
+   "source": "GTA6 Library + Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Permit Keys, southern island)",
+   "sourceUrl": "https://www.gta6library.com/map",
+   "posterPinPercent": [
+    60.0,
+    88.0
+   ],
+   "anchorNote": "Coords are the centroid of 423 licensed fbritoferreira locations in Leonida Keys — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-smuggler-gorse",
+   "name": "Smuggler Gorse 425 Shotgun",
+   "category": "weapon-rare",
+   "county": "Leonida Keys",
+   "city": "Leonida Keys",
+   "coords": [
+    -583.5,
+    402.6
+   ],
+   "description": "Smuggler Gorse 425 shotgun — unique — Free unique shotgun",
+   "directions": "Same boat trip as the Nipper: check the abandoned smuggler's boat beached on the northernmost Permit Keys island for the Gorse 425.",
+   "verification": "approximate",
+   "source": "GTA6 Library + Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Permit Keys, northernmost island)",
+   "sourceUrl": "https://www.gta6library.com/map",
+   "posterPinPercent": [
+    58.0,
+    85.0
+   ],
+   "anchorNote": "Coords are the centroid of 423 licensed fbritoferreira locations in Leonida Keys — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-kingfishers-w22",
+   "name": "Kingfishers W-22 Rifle — Fishing Shacks",
+   "category": "weapon-rare",
+   "county": "Mariana County",
+   "city": "Grassrivers",
+   "coords": [
+    -507.3,
+    391.5
+   ],
+   "description": "Kingfishers W-22 custom small-game rifle (suppressed, permanent) + cash — Rifle + ~$2,000 cash",
+   "directions": "The Fishing Shacks gang operation in the west of Wetman Bay. Clear the armed occupants, then search the main building — the W-22 sits in a large weapon case/crate inside.",
+   "verification": "approximate",
+   "source": "Jabba Reviews + GTA6 Library — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Wetman Bay, west side)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    34.0,
+    55.0
+   ],
+   "anchorNote": "Coords are the centroid of 16 licensed fbritoferreira locations in Grassrivers — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-badger-tower",
+   "name": "Badger Radio Tower — Free SM-69 Sniper",
+   "category": "weapon-rare",
+   "county": "Leonida Keys",
+   "city": "Leonida Keys",
+   "coords": [
+    -583.5,
+    402.6
+   ],
+   "description": "Shrewsbury SM-69 sniper rifle + Thelma collectible card (Delights Dancers set) — Free sniper + a collectible card — best first stop in the game",
+   "directions": "In Key Lento, find the Nifty Threads shirt icon on your map, then the fenced grey Badger R&D tower just north-west of it, between the road and the waterfront. Climb the chain-link gate, enter via the grey door with electrical warning signs at the base, climb the ladder, check the desk by the small TV for Thelma's card, then step onto the balcony — the SM-69 leans on the railing. No gunfight.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Key Lento, NW of Nifty Threads)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    52.0,
+    82.0
+   ],
+   "anchorNote": "Coords are the centroid of 423 licensed fbritoferreira locations in Leonida Keys — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-griffin-bunker",
+   "name": "Griffin Shooting Range Bunker — Conspiracist Type 9",
+   "category": "weapon-rare",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Conspiracist Type 9 machine pistol + Hauners H-AT rocket launcher — Two free heavy hitters",
+   "directions": "Balsero, south-west Vice City, across the road from Griffin Shooting Range. Look for the antenna-covered trailer and drop through its floor hatch into the bunker for the Type 9 and the H-AT launcher.",
+   "verification": "approximate",
+   "source": "Jabba Reviews + GTA6 Library — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Balsero, SW Vice City)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    60.0,
+    57.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-tiger-motel-laird",
+   "name": "Tiger Motel — Gold Kingfishers Laird 350",
+   "category": "weapon-rare",
+   "county": "Mariana County",
+   "city": "Hamlet & the Swamps",
+   "coords": [
+    -606.0,
+    391.4
+   ],
+   "description": "Gold Kingfishers Laird 350 sniper rifle, Molotovs, cash — Gold sniper + ~$3,000",
+   "directions": "Small motel south of Hamlet. One room holds an escaped tiger — deal with it, then search the two accessible rooms for the gold Laird 350, Molotovs and about $3,000.",
+   "verification": "approximate",
+   "source": "GTAVibes + Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: South of Hamlet (Gullet Marsh))",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    55.0,
+    74.0
+   ],
+   "anchorNote": "Coords are the centroid of 253 licensed fbritoferreira locations in Hamlet & the Swamps — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-hobo-shotgun",
+   "name": "Marabunta Hobo Shotgun — Industrial Building",
+   "category": "weapon-rare",
+   "county": "Vice-Dale County",
+   "city": "Hamlet & the Swamps",
+   "coords": [
+    -606.0,
+    391.4
+   ],
+   "description": "Marabunta Grande Hobo Shotgun in a weapon case, loose cash and money bundles — Free unique shotgun + cash",
+   "directions": "Drive south from Hamlet toward the highway and look for the industrial storage building close to the road — you may hear screaming as you approach. Inside, open the weapon case, then check the table, the yellow toolbox and the corners for cash bundles.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: South of Hamlet, by the highway)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    51.0,
+    70.0
+   ],
+   "anchorNote": "Coords are the centroid of 253 licensed fbritoferreira locations in Hamlet & the Swamps — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-stilt-house-comshot",
+   "name": "Stilt House — Comshot 12 Shotgun",
+   "category": "weapon-rare",
+   "county": "Leonida Keys",
+   "city": "Leonida Keys",
+   "coords": [
+    -583.5,
+    402.6
+   ],
+   "description": "Unpacked Comshot 12 unique shotgun — Free unique shotgun",
+   "directions": "North-west Key Lento, the stilt house by the sea lion statue. Head upstairs to the en-suite for the Comshot 12 — an alarm may trigger, so be ready to leave fast.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Key Lento, NW by the sea lion statue)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    45.0,
+    80.0
+   ],
+   "anchorNote": "Coords are the centroid of 423 licensed fbritoferreira locations in Leonida Keys — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-palmer-warehouse-golden-ak",
+   "name": "Palmer Fishing Warehouse — Golden KZ-59",
+   "category": "weapon-rare",
+   "county": "Mariana County",
+   "city": "Grassrivers",
+   "coords": [
+    -507.3,
+    391.5
+   ],
+   "description": "Golden La Polilla Negra KZ-59, cash and a watch — Gold gun + cash + watch",
+   "directions": "Palmer Fishing Warehouse on Bobcat Key near Watson Bay. Guards throughout — clear it room by room, open the safe (reported code 1886) and take the golden KZ-59.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Bobcat Key, near Watson Bay)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    44.0,
+    66.0
+   ],
+   "anchorNote": "Coords are the centroid of 16 licensed fbritoferreira locations in Grassrivers — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-la-perle-trap-house",
+   "name": "La Perle Trap House — Chromium W-10",
+   "category": "weapon-rare",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Chromium W-10 SMG and a Charred Toros SUV — Unique SMG + SUV",
+   "directions": "North Vice City, beside a fire station. Approach through the adjoining fire station to reach the trap house's back door, clear it, and take the Chromium W-10 and the Toros.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: North Vice City, beside a fire station)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    70.0,
+    46.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-port-vice-lmg",
+   "name": "Port Vice City Container — Mercenary LMG 6",
+   "category": "weapon-rare",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Mercenary LMG 6 — Free LMG (Chapter 3)",
+   "directions": "Chapter 3: at Port Vice City, cut open the yellow shipping container with the Cut-Off Tool to reach the Mercenary LMG 6 inside.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Port Vice City (H8))",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    76.0,
+    55.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-gutterball-shotgun",
+   "name": "Kingpin Bowling — Gutterball Moreland 850",
+   "category": "weapon-rare",
+   "county": "Kelly County",
+   "city": "Port Gellhorn",
+   "coords": [
+    -391.4,
+    319.2
+   ],
+   "description": "Legendary Gutterball Moreland 850 shotgun — Free legendary shotgun",
+   "directions": "Kingpin Bowling in Port Gellhorn hides the legendary Gutterball Moreland 850. While you're in town, the June Warehouse holds an SMG and $5,000 in Chapter 2, and a backroom business front has another $5,000 safe.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Port Gellhorn (E3))",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    35.0,
+    36.0
+   ],
+   "anchorNote": "Coords are the centroid of 343 licensed fbritoferreira locations in Port Gellhorn — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-sunrise-motel-glr40",
+   "name": "Sunrise Motel Garage — GLR40 Launcher",
+   "category": "weapon-rare",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Deever Tech GLR40 launcher + Cockroach Xtreme 556 — Two free guns",
+   "directions": "Tequesta, southern Vice City. The one-car garage at the Sunrise Motel — check behind the toilet-roll stack for the GLR40 launcher and the Xtreme 556.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Tequesta, south Vice City)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    70.0,
+    60.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-hog-stars-garage",
+   "name": "Hog Stars Garage, Ambrosia",
+   "category": "vehicle-rare",
+   "county": "Leonard County",
+   "city": "Ambrosia",
+   "coords": [
+    -387.2,
+    424.1
+   ],
+   "description": "Bravado Devil's Rope Gauntlet + Final Chapter Shortstraw shotgun + safe — Muscle car + unique shotgun",
+   "directions": "The biker garage in industrial Ambrosia. Enter via the roof hatch, clear the armed bikers, loot the safe and the Shortstraw, and drive out in the Devil's Rope Gauntlet.",
+   "verification": "approximate",
+   "source": "Jabba Reviews + GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Industrial Ambrosia (E5–E6))",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    53.0,
+    44.0
+   ],
+   "anchorNote": "Coords are the centroid of 134 licensed fbritoferreira locations in Ambrosia — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-penumbra-rialto",
+   "name": "Maibatsu Penumbra FF — Rialto Islands Garage",
+   "category": "vehicle-rare",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "Maibatsu Penumbra FF '97 in a house garage — Free tuner car (tested in-game by the source)",
+   "directions": "Neptune Circle, west side of the Rialto Islands, just north of where the causeway from Catalan Island arrives. Break open the garage's side door to reach the Penumbra FF. The Rialto villas generally hide tuner and luxury cars — check the garages on the street.",
+   "verification": "approximate",
+   "source": "GTA 6 Motors — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Neptune Cir, Rialto Islands)",
+   "sourceUrl": "https://gta6motors.com/tools/gta-6-map/",
+   "posterPinPercent": [
+    76.0,
+    49.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-vitello-waning-sands",
+   "name": "Pegassi Vitello — Waning Sands Villa",
+   "category": "vehicle-rare",
+   "county": "Leonard County",
+   "city": "Lake Leonida",
+   "coords": [
+    -389.5,
+    507.9
+   ],
+   "description": "Pegassi Vitello in a villa garage — Free supercar",
+   "directions": "Villa garage on Flamingo Parkway, east of Belville in the Waning Sands area. Check the garage for the Vitello.",
+   "verification": "approximate",
+   "source": "GTA 6 Motors — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Flamingo Parkway, east of Belville)",
+   "sourceUrl": "https://gta6motors.com/tools/gta-6-map/",
+   "posterPinPercent": [
+    68.0,
+    38.0
+   ],
+   "anchorNote": "Coords are the centroid of 77 licensed fbritoferreira locations in Lake Leonida — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-rhino-mile-zero",
+   "name": "Hauners Rhino Tank — Mile Zero Air Station",
+   "category": "vehicle-rare",
+   "county": "Leonida Keys",
+   "city": "Leonida Keys",
+   "coords": [
+    -583.5,
+    402.6
+   ],
+   "description": "Hauners Rhino tank — the only tank spawn found so far — A tank. Enough said.",
+   "directions": "The army base at Mile Zero Air Station, west end of the Keys chain past Key Lento. Rhino tanks are found only here — expect a serious wanted level getting one out.",
+   "verification": "approximate",
+   "source": "MissionPassed (via GameSpot) — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Mile Zero Air Station (L3))",
+   "sourceUrl": "https://gta6missionpassed.com/pages/loot",
+   "posterPinPercent": [
+    29.0,
+    87.0
+   ],
+   "anchorNote": "Coords are the centroid of 423 licensed fbritoferreira locations in Leonida Keys — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-heli-hamlet",
+   "name": "Helicopter — Hamlet Helipad",
+   "category": "vehicle-rare",
+   "county": "Vice-Dale County",
+   "city": "Hamlet & the Swamps",
+   "coords": [
+    -606.0,
+    391.4
+   ],
+   "description": "Helicopter on a helipad — Free air transport — fastest way to cross Leonida",
+   "directions": "Helipad east of Hamlet with a helicopter spawn. Other reliable air spawns: the hospital roof in Southside (climb the ladder), a hotel rooftop in Ocean Beach, and the airstrip south of Port Gellhorn (plane + helicopter).",
+   "verification": "approximate",
+   "source": "GTA 6 Motors — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: East of Hamlet)",
+   "sourceUrl": "https://gta6motors.com/tools/gta-6-map/",
+   "posterPinPercent": [
+    59.0,
+    67.0
+   ],
+   "anchorNote": "Coords are the centroid of 253 licensed fbritoferreira locations in Hamlet & the Swamps — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-parrot-stash",
+   "name": "Three Sheets Liquor — The Parrot Stash",
+   "category": "hidden-cash",
+   "county": "Leonida Keys",
+   "city": "Leonida Keys",
+   "coords": [
+    -583.5,
+    402.6
+   ],
+   "description": "Hidden vent stash behind the liquor store + backroom safe + till cash — ~$1,260–$1,300 vent stash + ~$900 safe",
+   "directions": "The illegal operation behind Three Sheets Liquor Store in Key Lento (Chapter 1 — neighbour Shirley's rum errand leads here). Clear the guarded yard with the exotic animals, talk to the caged parrot and ask about the money, then open the vent beside the generator it points you to. Check the backroom safe and the till before you leave.",
+   "verification": "approximate",
+   "source": "Jabba Reviews + GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Key Lento)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    54.0,
+    84.0
+   ],
+   "anchorNote": "Coords are the centroid of 423 licensed fbritoferreira locations in Leonida Keys — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": true,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-cottonmouth-trailer",
+   "name": "Cottonmouth Lake Trailer Safe",
+   "category": "hidden-cash",
+   "county": "Mariana County",
+   "city": "Grassrivers",
+   "coords": [
+    -507.3,
+    391.5
+   ],
+   "description": "Kitchen safe cash + a collectible card — Safe cash (amount varies) + card",
+   "directions": "Trailer by Cottonmouth Lake in the wetlands south of Hamlet. The kitchen safe opens with 44017 — grab the cash and the collectible card.",
+   "verification": "approximate",
+   "source": "Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Cottonmouth Lake, south of Hamlet)",
+   "sourceUrl": "https://jabbareviews.com/gta-6-loot-locations-money-cars-weapons/",
+   "posterPinPercent": [
+    48.0,
+    74.0
+   ],
+   "anchorNote": "Coords are the centroid of 16 licensed fbritoferreira locations in Grassrivers — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-june-warehouse",
+   "name": "June Warehouse, Port Gellhorn",
+   "category": "hidden-cash",
+   "county": "Kelly County",
+   "city": "Port Gellhorn",
+   "coords": [
+    -391.4,
+    319.2
+   ],
+   "description": "SMG + cash (Chapter 2) — $5,000 + an SMG",
+   "directions": "Chapter 2: the June Warehouse in Port Gellhorn holds an SMG and $5,000. Pair it with the Kingpin Bowling shotgun run while you're on the west coast.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Port Gellhorn (E3))",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    33.0,
+    33.0
+   ],
+   "anchorNote": "Coords are the centroid of 343 licensed fbritoferreira locations in Port Gellhorn — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-ambrosia-motel-pistol",
+   "name": "Motel Room 115, North of Ambrosia",
+   "category": "hidden-cash",
+   "county": "Leonard County",
+   "city": "Ambrosia",
+   "coords": [
+    -387.2,
+    424.1
+   ],
+   "description": "Free Stoner K17 MCD pistol on the nightstand — Free pistol, zero effort",
+   "directions": "Motel north of Ambrosia, room 115. Walk in and take the Stoner K17 MCD pistol off the nightstand.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: North of Ambrosia)",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    52.0,
+    39.0
+   ],
+   "anchorNote": "Coords are the centroid of 134 licensed fbritoferreira locations in Ambrosia — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-island-dreams-card",
+   "name": "Collection Card — Island Dreams Porch",
+   "category": "collectible",
+   "county": "Leonida Keys",
+   "city": "Leonida Keys",
+   "coords": [
+    -583.5,
+    402.6
+   ],
+   "description": "Collection card on the covered porch — One for the card collection",
+   "directions": "Island Dreams Boat Charters in Key Lento — check the covered porch, by the blue bench outside. Collectible cards are one of Leonida's tracked sets, alongside WAiNK scans, meteorite fragments, messages in a bottle and shipwreck treasure.",
+   "verification": "approximate",
+   "source": "MissionPassed — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Key Lento waterfront)",
+   "sourceUrl": "https://gta6missionpassed.com/pages/loot",
+   "posterPinPercent": [
+    47.0,
+    85.0
+   ],
+   "anchorNote": "Coords are the centroid of 423 licensed fbritoferreira locations in Leonida Keys — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-buntosaurus-bat",
+   "name": "Buntosaurus Bat — Dinosaur Mini-Golf",
+   "category": "collectible",
+   "county": "Kelly County",
+   "city": "Port Gellhorn",
+   "coords": [
+    -391.4,
+    319.2
+   ],
+   "description": "Unique Buntosaurus melee bat in the batting cages — One-of-a-kind melee weapon",
+   "directions": "The dinosaur mini-golf course in Kelly County, on the road toward Port Gellhorn. Check the batting cages for the Buntosaurus bat.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Kelly County)",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    40.0,
+    42.0
+   ],
+   "anchorNote": "Coords are the centroid of 343 licensed fbritoferreira locations in Port Gellhorn — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-skunk-ape-shack",
+   "name": "Skunk Ape Shack — Swamp Guns",
+   "category": "secret-room",
+   "county": "Mariana County",
+   "city": "Grassrivers",
+   "coords": [
+    -507.3,
+    391.5
+   ],
+   "description": "Gold Swamp Bait Akulus revolver + Cruel Huntsman's SM-69 sniper — Two gold/unique guns at a Bigfoot-hunt spot",
+   "directions": "A ruined swamp cabin in Pelican Valley tied to the Skunk Ape / Bigfoot mystery — Bigfoot itself roams Gullet Marsh south of Hamlet. Search the cabin floor and side deck for the gold revolver and the SM-69. Mind the wildlife.",
+   "verification": "approximate",
+   "source": "GTAVibes + Jabba Reviews — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Pelican Valley swamp)",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    35.0,
+    65.0
+   ],
+   "anchorNote": "Coords are the centroid of 16 licensed fbritoferreira locations in Grassrivers — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "High"
+  },
+  {
+   "id": "johnny-alien-retrieval",
+   "name": "Alien Retrieval — South Point Airfield",
+   "category": "secret-room",
+   "county": "Mariana County",
+   "city": "Hamlet & the Swamps",
+   "coords": [
+    -606.0,
+    391.4
+   ],
+   "description": "UFO mystery: a hidden underground lab and a captive alien — Pure Easter egg — no cash, all bragging rights",
+   "directions": "Beneath the radio tower building at South Point Airfield in Hamlet there's a hidden underground lab, part of the UFO mystery. Find the way down and free the small alien.",
+   "verification": "approximate",
+   "source": "MissionPassed (via GameSpot) — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: South Point Airfield, Hamlet)",
+   "sourceUrl": "https://gta6missionpassed.com/pages/loot",
+   "posterPinPercent": [
+    55.0,
+    76.0
+   ],
+   "anchorNote": "Coords are the centroid of 253 licensed fbritoferreira locations in Hamlet & the Swamps — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "Low"
+  },
+  {
+   "id": "johnny-watson-bay-nipper",
+   "name": "Watson Bay Parachute Car — Gold Turnt Nipper .38",
+   "category": "secret-room",
+   "county": "Mariana County",
+   "city": "Grassrivers",
+   "coords": [
+    -507.3,
+    391.5
+   ],
+   "description": "Gold Turnt Nipper .38 inside a car hanging from a parachute in a tree — Gold pistol, if your aim's good",
+   "directions": "Watson Bay: look up — a vehicle hangs from a parachute caught in a tree. Shoot it down and loot the gold Turnt Nipper .38 from the wreck.",
+   "verification": "approximate",
+   "source": "GTAVibes — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Watson Bay)",
+   "sourceUrl": "https://www.gtavibes.com/guides/gta-6-secret-rooms-hidden-loot-locations",
+   "posterPinPercent": [
+    43.0,
+    61.0
+   ],
+   "anchorNote": "Coords are the centroid of 16 licensed fbritoferreira locations in Grassrivers — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "None"
+  },
+  {
+   "id": "johnny-literal-easter-egg",
+   "name": "The Literal Easter Egg",
+   "category": "secret-room",
+   "county": "Vice-Dale County",
+   "city": "Vice City",
+   "coords": [
+    -493.0,
+    496.6
+   ],
+   "description": "An actual egg in a nest on top of the tallest tower in Vice City — Rockstar's oldest joke, literally on the roof",
+   "directions": "Get to the top of the tallest tower in downtown Vice City — you'll need aircraft or a long climb — and find the nest with a real egg in it.",
+   "verification": "approximate",
+   "source": "MissionPassed — via Johnny's original GTA 6 Map catalog (poster-area pin, grid: Downtown Vice City (G7))",
+   "sourceUrl": "https://gta6missionpassed.com/pages/loot",
+   "posterPinPercent": [
+    70.0,
+    50.0
+   ],
+   "anchorNote": "Coords are the centroid of 1764 licensed fbritoferreira locations in Vice City — an area anchor only, NOT a street-exact point. The real finding aid is the directions + grid above.",
+   "catalogVerifiedCrossGuide": false,
+   "combat": "None"
+  }
+ ]
+}

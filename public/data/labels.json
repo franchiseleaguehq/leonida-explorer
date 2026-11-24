@@ -1,0 +1,10347 @@
+{
+ "dataset": "leonida-explorer-labels",
+ "version": 1,
+ "generatedAt": "2026-11-24T23:45:08.008Z",
+ "attribution": "District & highway labels: Open GTA 6 Map (fbritoferreira), CC BY 4.0 — https://github.com/fbritoferreira/gta6 · Landmark & area labels: GTA VI Landmarks Data (CC BY 4.0) — https://map.gtadb.org",
+ "note": "Every label is a verbatim name from the cited licensed source data. No street names exist in any licensed dataset (the fbritoferreira road geometry carries no name property at all), so no street-name labels are included. Coordinates are Leaflet [lat,lng] in the app map-unit space.",
+ "counts": {
+  "district": 10,
+  "highway": 25,
+  "landmark": 1051,
+  "neighborhood": 62
+ },
+ "labels": [
+  {
+   "name": "Vice City",
+   "tier": "district",
+   "coords": [
+    -489.7,
+    503.9
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Vice Beach",
+   "tier": "district",
+   "coords": [
+    -485.3,
+    558.6
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Gloriana Key",
+   "tier": "district",
+   "coords": [
+    -557,
+    533.3
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Hamlet",
+   "tier": "district",
+   "coords": [
+    -610.6,
+    421.4
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Capri",
+   "tier": "district",
+   "coords": [
+    -506.8,
+    289.3
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Key Lento",
+   "tier": "district",
+   "coords": [
+    -700.4,
+    437
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Watson Bay",
+   "tier": "district",
+   "coords": [
+    -619.5,
+    358.9
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Port Gellhorn",
+   "tier": "district",
+   "coords": [
+    -379.8,
+    305.8
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Ambrosia",
+   "tier": "district",
+   "coords": [
+    -380.8,
+    415.8
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Waning Sands",
+   "tier": "district",
+   "coords": [
+    -387.4,
+    503.1
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-297",
+   "tier": "highway",
+   "coords": [
+    -337.9,
+    360.3
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-297",
+   "tier": "highway",
+   "coords": [
+    -333.5,
+    432.8
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-97",
+   "tier": "highway",
+   "coords": [
+    -350.4,
+    506.4
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-97",
+   "tier": "highway",
+   "coords": [
+    -408.9,
+    519.5
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-97",
+   "tier": "highway",
+   "coords": [
+    -477.5,
+    485.9
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-97",
+   "tier": "highway",
+   "coords": [
+    -555.5,
+    470.7
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-404",
+   "tier": "highway",
+   "coords": [
+    -408,
+    317.4
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-404",
+   "tier": "highway",
+   "coords": [
+    -483.9,
+    317.4
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-404",
+   "tier": "highway",
+   "coords": [
+    -502.9,
+    400.1
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "I-397",
+   "tier": "highway",
+   "coords": [
+    -525.7,
+    496.7
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-628",
+   "tier": "highway",
+   "coords": [
+    -305.8,
+    359.2
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-628",
+   "tier": "highway",
+   "coords": [
+    -269.2,
+    441.5
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-35",
+   "tier": "highway",
+   "coords": [
+    -352.5,
+    427.2
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-35",
+   "tier": "highway",
+   "coords": [
+    -418.8,
+    424
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-35",
+   "tier": "highway",
+   "coords": [
+    -497.1,
+    424
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-35",
+   "tier": "highway",
+   "coords": [
+    -594.9,
+    455.5
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-183",
+   "tier": "highway",
+   "coords": [
+    -454.7,
+    362.1
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-183",
+   "tier": "highway",
+   "coords": [
+    -511.7,
+    311.3
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "US-82",
+   "tier": "highway",
+   "coords": [
+    -560.5,
+    352.4
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "CR-62",
+   "tier": "highway",
+   "coords": [
+    -430.5,
+    329.1
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "CR-62",
+   "tier": "highway",
+   "coords": [
+    -425.5,
+    441.5
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "SR-1A",
+   "tier": "highway",
+   "coords": [
+    -613.9,
+    492.6
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "SR-1A",
+   "tier": "highway",
+   "coords": [
+    -668.8,
+    457.9
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "SR-1A",
+   "tier": "highway",
+   "coords": [
+    -734.3,
+    341.4
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "SR-1A",
+   "tier": "highway",
+   "coords": [
+    -730.7,
+    397.1
+   ],
+   "source": "fbrito"
+  },
+  {
+   "name": "Vice Regal",
+   "tier": "landmark",
+   "coords": [
+    -424.3995766378308,
+    556.0437894707435
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Albany Hotel",
+   "tier": "landmark",
+   "coords": [
+    -455.2809496249086,
+    573.3925596516954
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Y Vice City",
+   "tier": "landmark",
+   "coords": [
+    -462.28817553278117,
+    573.1915470201587
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Crystal",
+   "tier": "landmark",
+   "coords": [
+    -469.45855890904613,
+    574.0328271646786
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sachem",
+   "tier": "landmark",
+   "coords": [
+    -471.8954599184598,
+    573.0453883306509
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Atoll",
+   "tier": "landmark",
+   "coords": [
+    -476.2604551971216,
+    572.9041576822335
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bayfront Heights",
+   "tier": "landmark",
+   "coords": [
+    -479.64465870064896,
+    575.4240941757629
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Dominion Hotel",
+   "tier": "landmark",
+   "coords": [
+    -483.4961661993631,
+    574.7549776895225
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hotel Dixon",
+   "tier": "landmark",
+   "coords": [
+    -488.96875,
+    573.671875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Paramour Hotel",
+   "tier": "landmark",
+   "coords": [
+    -490.828125,
+    573.34375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ocean View Hotel",
+   "tier": "landmark",
+   "coords": [
+    -492.03125,
+    573.234375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Seven Seas Seafood",
+   "tier": "landmark",
+   "coords": [
+    -493.59375,
+    572.65625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Boardwalk",
+   "tier": "landmark",
+   "coords": [
+    -494.359375,
+    572.59375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hotel Neptune",
+   "tier": "landmark",
+   "coords": [
+    -495.109375,
+    572.453125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parsons Hotel?",
+   "tier": "landmark",
+   "coords": [
+    -495.546875,
+    572.390625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Seashell Hotel",
+   "tier": "landmark",
+   "coords": [
+    -498.046875,
+    572.34375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cortez Hotel",
+   "tier": "landmark",
+   "coords": [
+    -499.125,
+    572.25
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bobby Hurricane's",
+   "tier": "landmark",
+   "coords": [
+    -499.546875,
+    572.109375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Atlantis Hotel",
+   "tier": "landmark",
+   "coords": [
+    -499.921875,
+    572.0625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Seahorse",
+   "tier": "landmark",
+   "coords": [
+    -500.390625,
+    572.015625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cordelia",
+   "tier": "landmark",
+   "coords": [
+    -500.921875,
+    571.9375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (S)",
+   "tier": "landmark",
+   "coords": [
+    -522.2728359209591,
+    573.9476996952935
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Museum of Art",
+   "tier": "landmark",
+   "coords": [
+    -465.9375,
+    568
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fence",
+   "tier": "landmark",
+   "coords": [
+    -462.89296875,
+    567.88465625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Firefly Plaza",
+   "tier": "landmark",
+   "coords": [
+    -460.16015625,
+    565.3591875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Eager Beaver Express",
+   "tier": "landmark",
+   "coords": [
+    -426.511625,
+    313.53331249999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Beach Welcome Mural",
+   "tier": "landmark",
+   "coords": [
+    -456.847984375,
+    556.01021875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Effluvia",
+   "tier": "landmark",
+   "coords": [
+    -470.046875,
+    558.625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (N)",
+   "tier": "landmark",
+   "coords": [
+    -503.1477769191007,
+    553.2533250739713
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Beach Marina",
+   "tier": "landmark",
+   "coords": [
+    -515.4956219709584,
+    554.396599879473
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Stadium",
+   "tier": "landmark",
+   "coords": [
+    -570.307300756433,
+    502.33750997957395
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pegassi Residences South Tower",
+   "tier": "landmark",
+   "coords": [
+    -545.7947347592067,
+    513.5147681149308
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pegassi Residences North Tower",
+   "tier": "landmark",
+   "coords": [
+    -541.9637957402022,
+    511.87597159635914
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Redwood Suites",
+   "tier": "landmark",
+   "coords": [
+    -474.205918659746,
+    512.7215189711187
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -380.07346320256636,
+    510.59152873063806
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Arrow Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -380.70268047252597,
+    502.5034685236814
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -381.1555481471879,
+    525.4865056190191
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Evergreen Mall",
+   "tier": "landmark",
+   "coords": [
+    -385.3733936034353,
+    501.5795333565198
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -414.6405983459881,
+    479.12838644943673
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Arrow Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -423.22670572505393,
+    487.8640677172915
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -423.72543045800376,
+    487.39210692637647
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -442.237234375,
+    513.3014375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Jack of Hearts",
+   "tier": "landmark",
+   "coords": [
+    -474.65821875,
+    490.56440625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -468.97590625,
+    496.655125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Archez",
+   "tier": "landmark",
+   "coords": [
+    -458.3495625,
+    496.9935625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Crescent",
+   "tier": "landmark",
+   "coords": [
+    -472.127625,
+    499.93262500000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Archipelago (N)",
+   "tier": "landmark",
+   "coords": [
+    -476.210770942703,
+    497.403081711821
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gemini Tower",
+   "tier": "landmark",
+   "coords": [
+    -482.518234375,
+    502.85475
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Sumerian",
+   "tier": "landmark",
+   "coords": [
+    -485.613859375,
+    503.012875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Galina Ballet Opera House",
+   "tier": "landmark",
+   "coords": [
+    -489.342265625,
+    496.13334375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sahara Arena",
+   "tier": "landmark",
+   "coords": [
+    -497.9050178894259,
+    502.40856102546053
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Celtica Hotel?",
+   "tier": "landmark",
+   "coords": [
+    -495.15261924788547,
+    496.00962656180343
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "NINE1NINE",
+   "tier": "landmark",
+   "coords": [
+    -497.388140625,
+    491.028203125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Venture Apts North",
+   "tier": "landmark",
+   "coords": [
+    -489.726265625,
+    470.58146875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Venture Apts South",
+   "tier": "landmark",
+   "coords": [
+    -492.0968125,
+    470.65521875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "7071 Warren Thacker Manor",
+   "tier": "landmark",
+   "coords": [
+    -486.40834375,
+    471.621
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lou's",
+   "tier": "landmark",
+   "coords": [
+    -483.284609375,
+    470.9995625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fleeca Field",
+   "tier": "landmark",
+   "coords": [
+    -479.55461154266544,
+    461.82533931324
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fleeca Field Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -475.1831187353637,
+    464.1403627456783
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Rockridge Neighborhood Service Center",
+   "tier": "landmark",
+   "coords": [
+    -488.86728918197326,
+    468.6933164070843
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Navaro Shipping Terminal",
+   "tier": "landmark",
+   "coords": [
+    -493.875,
+    468.234375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Harrelson Building",
+   "tier": "landmark",
+   "coords": [
+    -502.208,
+    484.302203125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Kensinger Tower",
+   "tier": "landmark",
+   "coords": [
+    -503.93761040757397,
+    488.73729549770525
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Arcadia Towers (N)",
+   "tier": "landmark",
+   "coords": [
+    -508.1554970243121,
+    494.4570645793062
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Megamundo",
+   "tier": "landmark",
+   "coords": [
+    -521.2221875,
+    497.4560625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "El Gabeto Center",
+   "tier": "landmark",
+   "coords": [
+    -513.22453125,
+    476.62853125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Autograph Hangar 2",
+   "tier": "landmark",
+   "coords": [
+    -514.8825686908534,
+    433.62206844304075
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "VCIA Metro Mover Station",
+   "tier": "landmark",
+   "coords": [
+    -521.0943079003382,
+    463.3952534059022
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Heath Tower",
+   "tier": "landmark",
+   "coords": [
+    -525.796640625,
+    486.85546875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Piker Financial Center",
+   "tier": "landmark",
+   "coords": [
+    -526.8518125,
+    496.64884374999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gico? Huxley Hotels",
+   "tier": "landmark",
+   "coords": [
+    -529.6679859365214,
+    494.4814817499024
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "ShoreFront",
+   "tier": "landmark",
+   "coords": [
+    -527.459640625,
+    499.7061875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Tower?",
+   "tier": "landmark",
+   "coords": [
+    -542.9782498676561,
+    488.47832386269135
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sahara HQ",
+   "tier": "landmark",
+   "coords": [
+    -547.1832029537698,
+    487.0763928317328
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Penny Haus",
+   "tier": "landmark",
+   "coords": [
+    -551.309947133573,
+    488.31448033636826
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "One Stracathro Tower",
+   "tier": "landmark",
+   "coords": [
+    -552.5644320262023,
+    485.8155928770762
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Grand Majestic",
+   "tier": "landmark",
+   "coords": [
+    -553.1648925525872,
+    478.7122887262457
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "International Online Unlimited",
+   "tier": "landmark",
+   "coords": [
+    -555.2379224373061,
+    480.7205285561553
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (S)",
+   "tier": "landmark",
+   "coords": [
+    -576.1022872591853,
+    476.59043576486295
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (S)",
+   "tier": "landmark",
+   "coords": [
+    -576.4847294037842,
+    472.6367658588132
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Stiltsville Bridge\"",
+   "tier": "landmark",
+   "coords": [
+    -613.5517491269885,
+    491.8146263806659
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fuzzard Power Station (N)",
+   "tier": "landmark",
+   "coords": [
+    -621.7580625,
+    462.3366875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Beacon",
+   "tier": "landmark",
+   "coords": [
+    -620.125,
+    430.3436875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Rattlers",
+   "tier": "landmark",
+   "coords": [
+    -615.9375,
+    432.4374375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Te Invito",
+   "tier": "landmark",
+   "coords": [
+    -622.390625,
+    431.703125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "LTD Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -625.0273524653855,
+    431.74377132725465
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hamlet Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -608.3643135080779,
+    418.82638341577285
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sewage Treatment Plant",
+   "tier": "landmark",
+   "coords": [
+    -598.6516549103608,
+    413.4317893619443
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radio Mast",
+   "tier": "landmark",
+   "coords": [
+    -584.962109375,
+    432.31990625000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sunrise RV Park",
+   "tier": "landmark",
+   "coords": [
+    -652.5162158359781,
+    403.35169485940446
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Jason's House",
+   "tier": "landmark",
+   "coords": [
+    -684.88296875,
+    438.45215625000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cell Tower",
+   "tier": "landmark",
+   "coords": [
+    -724.54759375,
+    406.046546875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Air Force Radar Station",
+   "tier": "landmark",
+   "coords": [
+    -724.6656875,
+    378.34784375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Blimp",
+   "tier": "landmark",
+   "coords": [
+    -724.82253125,
+    373.65521875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radio Tower",
+   "tier": "landmark",
+   "coords": [
+    -724.4558125,
+    315.61915625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Guard Booth",
+   "tier": "landmark",
+   "coords": [
+    -729.58153125,
+    311.89884374999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Warehouse",
+   "tier": "landmark",
+   "coords": [
+    -454.125,
+    364.96875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cell Tower",
+   "tier": "landmark",
+   "coords": [
+    -450.1793748519001,
+    364.4380170106389
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -461.6939611539269,
+    352.59624201207953
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gellhorn International Raceway",
+   "tier": "landmark",
+   "coords": [
+    -439.329828125,
+    301.584078125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Eager Beaver Gas",
+   "tier": "landmark",
+   "coords": [
+    -425.328921875,
+    314.08490625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bingo Hall",
+   "tier": "landmark",
+   "coords": [
+    -422.984375,
+    313
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Red Raccoon Diner",
+   "tier": "landmark",
+   "coords": [
+    -413.90625,
+    309.59375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pawn & Gun",
+   "tier": "landmark",
+   "coords": [
+    -406.78125,
+    313.5625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lucky Plucker",
+   "tier": "landmark",
+   "coords": [
+    -404.53125,
+    313.1875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radio Tower",
+   "tier": "landmark",
+   "coords": [
+    -401.42223802268126,
+    309.2856057403982
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Port Gellhorn Smokestack",
+   "tier": "landmark",
+   "coords": [
+    -405.4300047888293,
+    313.47624521117075
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Port Gellhorn Center of Praise & Purpose",
+   "tier": "landmark",
+   "coords": [
+    -385.081087518253,
+    315.3345972679026
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Starlet Motel",
+   "tier": "landmark",
+   "coords": [
+    -403.3619733034989,
+    344.3151218961777
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radio Mast",
+   "tier": "landmark",
+   "coords": [
+    -407.1049731287608,
+    352.94919716356833
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Taco Bomb",
+   "tier": "landmark",
+   "coords": [
+    -401.93263803009194,
+    347.9168359047151
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Starlet Motel Sign",
+   "tier": "landmark",
+   "coords": [
+    -402.2187531794183,
+    345.96350406655074
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Alpha Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -399.8903435871475,
+    346.9644625862875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Easy Inn Motel",
+   "tier": "landmark",
+   "coords": [
+    -376.19497258840624,
+    320.9495001964587
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hank's Waffles",
+   "tier": "landmark",
+   "coords": [
+    -370.57140625,
+    318.64984375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tank",
+   "tier": "landmark",
+   "coords": [
+    -369.81690100326927,
+    316.8072606646925
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -361.57597771677695,
+    326.61795890119515
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Uncle Jack's Liquor",
+   "tier": "landmark",
+   "coords": [
+    -391.189515625,
+    313.41621875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -370.28809077645855,
+    313.92499882684365
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Schlott Construction",
+   "tier": "landmark",
+   "coords": [
+    -372.4085625,
+    318.0878125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Car Wash",
+   "tier": "landmark",
+   "coords": [
+    -375.7044637490636,
+    316.83255585808786
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bocamar Bridge",
+   "tier": "landmark",
+   "coords": [
+    -369.3974746791279,
+    301.7073726588362
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Dry Dock",
+   "tier": "landmark",
+   "coords": [
+    -366.40356208480296,
+    269.78101374220813
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane (1)",
+   "tier": "landmark",
+   "coords": [
+    -364.45469490023436,
+    263.8260801850934
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hotel Valetta",
+   "tier": "landmark",
+   "coords": [
+    -461.582546875,
+    568.1229375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Rusty Anchor",
+   "tier": "landmark",
+   "coords": [
+    -676.27853125,
+    441.0134375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Brian's Boat Works & Marina",
+   "tier": "landmark",
+   "coords": [
+    -695.0725924115205,
+    432.6691100839419
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Key Lento Marina Club",
+   "tier": "landmark",
+   "coords": [
+    -692.69321875,
+    431.30634375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wonder Whale",
+   "tier": "landmark",
+   "coords": [
+    -712.639203125,
+    420.263359375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cell Tower",
+   "tier": "landmark",
+   "coords": [
+    -688.4580649568865,
+    446.9064843811839
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "24/7 Supermarket",
+   "tier": "landmark",
+   "coords": [
+    -678.7093722682893,
+    450.1455098637301
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "VCIA Control Tower",
+   "tier": "landmark",
+   "coords": [
+    -536.1975965431963,
+    437.8434884293303
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Three Toe Lake",
+   "tier": "landmark",
+   "coords": [
+    -523.2645013702556,
+    389.0055482197153
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Burnout Scooters",
+   "tier": "landmark",
+   "coords": [
+    -408.015625,
+    310.296875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Watkins Auto Parts",
+   "tier": "landmark",
+   "coords": [
+    -409.5625,
+    310.59371875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mile Zero Air Station",
+   "tier": "landmark",
+   "coords": [
+    -712.0895534913727,
+    294.6093796327116
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mexican Restaurant",
+   "tier": "landmark",
+   "coords": [
+    -620.125,
+    432.046875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sara's Unisex Salon",
+   "tier": "landmark",
+   "coords": [
+    -618.703125,
+    432.1874375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Burger Shot",
+   "tier": "landmark",
+   "coords": [
+    -617.625,
+    432.2811875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vinylism",
+   "tier": "landmark",
+   "coords": [
+    -617.168765625,
+    432.32259375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Kurt's Barber Shop",
+   "tier": "landmark",
+   "coords": [
+    -623.140625,
+    431.59375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Treasured Trash",
+   "tier": "landmark",
+   "coords": [
+    -624.402203125,
+    430.269
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -514.0928227828814,
+    579.7505574497952
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -511.2937804649058,
+    579.5981714727961
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -506.64328448652435,
+    578.739992291462
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -501.1918291885819,
+    579.456698579129
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -497.09849572408194,
+    579.8153330235951
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -493.0673077811307,
+    580.2707409389554
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -488.44614755668226,
+    580.7332817273582
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -484.4548061236177,
+    581.3498256979021
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -480.8127139650463,
+    581.7688871346496
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pegassi Residences West Tower",
+   "tier": "landmark",
+   "coords": [
+    -540.0643110119593,
+    507.2165680996697
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Akio Hotel",
+   "tier": "landmark",
+   "coords": [
+    -549.7776820740323,
+    500.37163686443176
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bite House",
+   "tier": "landmark",
+   "coords": [
+    -617.92621875,
+    347.778828125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sugar Mill",
+   "tier": "landmark",
+   "coords": [
+    -407.41680139109747,
+    417.7340404880555
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Silo",
+   "tier": "landmark",
+   "coords": [
+    -390.93276431183966,
+    428.19261261947486
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tank",
+   "tier": "landmark",
+   "coords": [
+    -395.4963786858733,
+    418.84395999574724
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tucker's Tower",
+   "tier": "landmark",
+   "coords": [
+    -419.36849874506515,
+    389.7220451271883
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "W. Blanco's Cuban Foods",
+   "tier": "landmark",
+   "coords": [
+    -378.5018762568299,
+    426.3530829325982
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -381.3929914929223,
+    427.6748898142287
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Jeudy's Food Depot",
+   "tier": "landmark",
+   "coords": [
+    -464.265625,
+    483.4375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Conch King",
+   "tier": "landmark",
+   "coords": [
+    -464,
+    483.09375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Simon's Tires",
+   "tier": "landmark",
+   "coords": [
+    -475.57074945727777,
+    479.0545219113777
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Rivo Bridge",
+   "tier": "landmark",
+   "coords": [
+    -478.65207482898904,
+    508.6713009482904
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leaf Links Golf Club?",
+   "tier": "landmark",
+   "coords": [
+    -440.2951495497791,
+    534.2575130123355
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Port Vice City Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -504.29703541476846,
+    520.896391021861
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? Concert Hall",
+   "tier": "landmark",
+   "coords": [
+    -489.07378125,
+    500.23834375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Palaestra Tower",
+   "tier": "landmark",
+   "coords": [
+    -490.8129512792156,
+    497.86788586290515
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Dock Ring",
+   "tier": "landmark",
+   "coords": [
+    -507.9992683241582,
+    512.7392057198819
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "V-Rock Café",
+   "tier": "landmark",
+   "coords": [
+    -512.300749478154,
+    508.68306480471676
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Arts Center Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -487.9806876809152,
+    494.5865984075893
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Presidential Bunker",
+   "tier": "landmark",
+   "coords": [
+    -346.9673203674952,
+    518.4702679472196
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Underwater Research Station",
+   "tier": "landmark",
+   "coords": [
+    -720.3125,
+    449.53125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "What's Cooking",
+   "tier": "landmark",
+   "coords": [
+    -472.466453125,
+    491.57028125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Sign",
+   "tier": "landmark",
+   "coords": [
+    -526.4363833241385,
+    394.27561755390025
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (W)",
+   "tier": "landmark",
+   "coords": [
+    -530.71165625,
+    501.19634375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -429.10983338595264,
+    504.41696481539947
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lombank",
+   "tier": "landmark",
+   "coords": [
+    -471.32867143840167,
+    567.0622174807564
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Waste Transfer Services",
+   "tier": "landmark",
+   "coords": [
+    -429.7014632502189,
+    438.5161583576215
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lucia's Apartment",
+   "tier": "landmark",
+   "coords": [
+    -473.90838373520785,
+    497.22829802425633
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Allied Air Hangar",
+   "tier": "landmark",
+   "coords": [
+    -528.7615519935703,
+    444.9414785953837
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Glamour Clothing",
+   "tier": "landmark",
+   "coords": [
+    -459.009625,
+    498.3568125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Goliath?",
+   "tier": "landmark",
+   "coords": [
+    -461.2962521903083,
+    496.00835314516405
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Panos Plaza",
+   "tier": "landmark",
+   "coords": [
+    -490.53199479068616,
+    504.4221076356231
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Going Spare",
+   "tier": "landmark",
+   "coords": [
+    -465.939,
+    492.0514375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shunters",
+   "tier": "landmark",
+   "coords": [
+    -467.27869445359573,
+    491.32572876250583
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Kirkwood Distribution",
+   "tier": "landmark",
+   "coords": [
+    -469.122484375,
+    491.02809375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ficroth Capital",
+   "tier": "landmark",
+   "coords": [
+    -549.6976875,
+    485.857421875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lombank",
+   "tier": "landmark",
+   "coords": [
+    -557.6791326789626,
+    477.2567326753453
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"House B\"",
+   "tier": "landmark",
+   "coords": [
+    -684.95415625,
+    439.442359375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"House C\"",
+   "tier": "landmark",
+   "coords": [
+    -683.814578125,
+    439.52534375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"House D\"",
+   "tier": "landmark",
+   "coords": [
+    -683.14859375,
+    440.095875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (N)",
+   "tier": "landmark",
+   "coords": [
+    -573.8647547721944,
+    475.79866682229687
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (N)",
+   "tier": "landmark",
+   "coords": [
+    -573.6709555969412,
+    473.0098324454785
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hog House",
+   "tier": "landmark",
+   "coords": [
+    -475.812151706571,
+    343.14131400031897
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hoodwinks Bar",
+   "tier": "landmark",
+   "coords": [
+    -475.33078125,
+    491.843875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Thrillbilly Mud Club",
+   "tier": "landmark",
+   "coords": [
+    -363.36571875000004,
+    386.7943758741841
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radio Mast",
+   "tier": "landmark",
+   "coords": [
+    -415.76954597164195,
+    347.7490472011845
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Buckme",
+   "tier": "landmark",
+   "coords": [
+    -517.011671875,
+    497.453
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leonida State Prison",
+   "tier": "landmark",
+   "coords": [
+    -454.78379380899247,
+    353.99962669422644
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Mount Waffles\"",
+   "tier": "landmark",
+   "coords": [
+    -337.6569984180993,
+    347.5201799821142
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Mount Mountain\"",
+   "tier": "landmark",
+   "coords": [
+    -345.97553107316304,
+    372.1185508067417
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mount Kalaga",
+   "tier": "landmark",
+   "coords": [
+    -312.9173125,
+    404.797421875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Easy Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -388.0336401546538,
+    334.12773408782084
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leaf Links Golf Club",
+   "tier": "landmark",
+   "coords": [
+    -434.28959269294813,
+    530.0570003505892
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Refinery?",
+   "tier": "landmark",
+   "coords": [
+    -348.66803125,
+    277.09934375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Factory?",
+   "tier": "landmark",
+   "coords": [
+    -356.3636652129304,
+    288.49892888931686
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Church",
+   "tier": "landmark",
+   "coords": [
+    -390.617953125,
+    304.07159375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Port Gellhorn Train Station",
+   "tier": "landmark",
+   "coords": [
+    -399.7096015625,
+    305.60021875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Pawn",
+   "tier": "landmark",
+   "coords": [
+    -475.671875,
+    491.375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tequesta Retreat Bridge",
+   "tier": "landmark",
+   "coords": [
+    -546.2925100884844,
+    497.62976874501726
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Watson Bay Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -613.292890625,
+    358.414625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Evergreen Mall Sign",
+   "tier": "landmark",
+   "coords": [
+    -384.8466435354924,
+    494.62182870526107
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "J.C. Anglin United States Courthouse",
+   "tier": "landmark",
+   "coords": [
+    -487.6827351604079,
+    490.47322937420586
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -476.28125,
+    490.15621875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Vault",
+   "tier": "landmark",
+   "coords": [
+    -497.57149945060075,
+    487.8040394394342
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -467.01291637022456,
+    550.3057026723227
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "X Hotel",
+   "tier": "landmark",
+   "coords": [
+    -527.8289678432307,
+    457.1928361025107
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Clarissa Hotel",
+   "tier": "landmark",
+   "coords": [
+    -527.645765625,
+    503.50575
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Garage",
+   "tier": "landmark",
+   "coords": [
+    -508.576795748698,
+    489.70387329654085
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ambrosia Raceway Park",
+   "tier": "landmark",
+   "coords": [
+    -366.8529641917706,
+    418.9354024404643
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ambrosia Station",
+   "tier": "landmark",
+   "coords": [
+    -394.8223388375094,
+    441.0940021229302
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Repair & Salvage",
+   "tier": "landmark",
+   "coords": [
+    -396.158890625,
+    302.20034375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -375.86965625,
+    289.2894375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Pass",
+   "tier": "landmark",
+   "coords": [
+    -476.5772573637809,
+    515.5750112478553
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -480.9395390625,
+    471.21415625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Kington Hotel",
+   "tier": "landmark",
+   "coords": [
+    -491.48518623802653,
+    571.6968081649653
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -481.014921875,
+    490.1495625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Crossroad Park Minimall",
+   "tier": "landmark",
+   "coords": [
+    -389.202875,
+    314.047
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Marina",
+   "tier": "landmark",
+   "coords": [
+    -618.1581874999999,
+    350.996265625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Grassrivers Visitor Center",
+   "tier": "landmark",
+   "coords": [
+    -660.6286259539045,
+    428.54012704501656
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Delights",
+   "tier": "landmark",
+   "coords": [
+    -399.78587339741836,
+    313.24498895489194
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tequesta Retreat Park",
+   "tier": "landmark",
+   "coords": [
+    -552.70446875,
+    500.9906875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Spaceship House",
+   "tier": "landmark",
+   "coords": [
+    -297.698637586832,
+    334.4808398173627
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice River",
+   "tier": "landmark",
+   "coords": [
+    -519.000813269414,
+    472.4498111073536
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Transformer Station",
+   "tier": "landmark",
+   "coords": [
+    -402.2248953569112,
+    309.3979454706091
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Amalfi",
+   "tier": "landmark",
+   "coords": [
+    -480.42919540806207,
+    575.4408488304861
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -631.4963264664873,
+    484.46549932112526
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -564.8458128313745,
+    490.90361442327605
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -575.9616836831706,
+    517.5534529531288
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -542.56534375,
+    537.88915625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -352.28777429712807,
+    353.2624655788012
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -379.445375,
+    419.996828125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shoreline Market",
+   "tier": "landmark",
+   "coords": [
+    -507.0413496069688,
+    503.1219677438303
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -487.95562992691896,
+    298.31830952925645
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cipher Mall",
+   "tier": "landmark",
+   "coords": [
+    -487.483,
+    469.60053125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -451.703125,
+    509.515625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -505.58750130708785,
+    484.3929773941739
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Chariot Empire Suites",
+   "tier": "landmark",
+   "coords": [
+    -515.03125,
+    497.16215625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Main Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -600.8580316224277,
+    419.12855913983896
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #9",
+   "tier": "landmark",
+   "coords": [
+    -519.5061465087422,
+    544.7852448269688
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #8",
+   "tier": "landmark",
+   "coords": [
+    -521.9565796643233,
+    547.7297833372176
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #7",
+   "tier": "landmark",
+   "coords": [
+    -524.672380335718,
+    550.8162947860408
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #6",
+   "tier": "landmark",
+   "coords": [
+    -527.4458595721808,
+    554.192351972699
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #5",
+   "tier": "landmark",
+   "coords": [
+    -530.802679590364,
+    558.4429756371189
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #4",
+   "tier": "landmark",
+   "coords": [
+    -535.2232096160757,
+    554.6225530348296
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #3",
+   "tier": "landmark",
+   "coords": [
+    -535.9833742340531,
+    551.3710103975475
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #2",
+   "tier": "landmark",
+   "coords": [
+    -536.9348564453579,
+    546.644069171228
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane #1",
+   "tier": "landmark",
+   "coords": [
+    -537.8715484363797,
+    541.6198082828267
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Status Auto Resort",
+   "tier": "landmark",
+   "coords": [
+    -466.1701809190808,
+    494.9333530047182
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Judith's?",
+   "tier": "landmark",
+   "coords": [
+    -527.1174864800705,
+    456.14406333084213
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (N)",
+   "tier": "landmark",
+   "coords": [
+    -517.8643836936599,
+    573.4457545205817
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Arcadia Towers (S)",
+   "tier": "landmark",
+   "coords": [
+    -509.5431042008618,
+    492.60433971781816
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -344.704189577502,
+    310.06037323986465
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Autograph Hangar 1",
+   "tier": "landmark",
+   "coords": [
+    -514.337450290397,
+    430.61538212435244
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Break Inn",
+   "tier": "landmark",
+   "coords": [
+    -502.1260057449337,
+    497.13200542504006
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Court",
+   "tier": "landmark",
+   "coords": [
+    -475.397171875,
+    516.09728125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -512.1382881663686,
+    495.7708423866481
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (E)",
+   "tier": "landmark",
+   "coords": [
+    -529.685875,
+    503.60696875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Goliath",
+   "tier": "landmark",
+   "coords": [
+    -543.4794943860077,
+    396.94172527399087
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Submerged Tank",
+   "tier": "landmark",
+   "coords": [
+    -446.53714476010197,
+    591.9620016967283
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Archipelago (S)",
+   "tier": "landmark",
+   "coords": [
+    -477.052705228045,
+    498.37724167944765
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Calle Creativa",
+   "tier": "landmark",
+   "coords": [
+    -508.53971875,
+    475.64090625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -519.471359375,
+    499.3518125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Temple Park",
+   "tier": "landmark",
+   "coords": [
+    -538.2800949835728,
+    481.9357380016195
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -492.5226798026916,
+    480.403983784949
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? (S)",
+   "tier": "landmark",
+   "coords": [
+    -504.6015867342503,
+    554.6105820085735
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Donovan Roeder Jr. Community Center",
+   "tier": "landmark",
+   "coords": [
+    -679.49565625,
+    446.3051875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -347.349046680224,
+    344.02860903878945
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -398.66014877651867,
+    303.82837083017154
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tank",
+   "tier": "landmark",
+   "coords": [
+    -392.86903125000003,
+    302.82734374999995
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Soccer Field",
+   "tier": "landmark",
+   "coords": [
+    -397.89170275922567,
+    297.9005894980478
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "La Cascara Motel",
+   "tier": "landmark",
+   "coords": [
+    -387.9240249325695,
+    297.61515356418556
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -433.849078125,
+    306.366203125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Repair & Salvage",
+   "tier": "landmark",
+   "coords": [
+    -395.789671875,
+    303.40831249999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Still Waters",
+   "tier": "landmark",
+   "coords": [
+    -504.150265625,
+    304.94184375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Guardhouse",
+   "tier": "landmark",
+   "coords": [
+    -431.131765625,
+    312.59221875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "USCAS?",
+   "tier": "landmark",
+   "coords": [
+    -274.8733125,
+    403.72828125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shoreline Park?",
+   "tier": "landmark",
+   "coords": [
+    -516.7612950915195,
+    501.87895704650947
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -661.0202657117009,
+    440.35835521560074
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -672.842859375,
+    456.029015625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Control Tower",
+   "tier": "landmark",
+   "coords": [
+    -717.9713581793663,
+    294.4969070693919
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radar Tower",
+   "tier": "landmark",
+   "coords": [
+    -711.6393105157741,
+    302.57293422307185
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hangar",
+   "tier": "landmark",
+   "coords": [
+    -710.3309840023462,
+    305.0274921832387
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Weather Radar",
+   "tier": "landmark",
+   "coords": [
+    -707.0964826482386,
+    302.8529083536826
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ambrosia Police Department",
+   "tier": "landmark",
+   "coords": [
+    -378.68232020981276,
+    423.2865387289817
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Giant Fish Building",
+   "tier": "landmark",
+   "coords": [
+    -277.58859375,
+    454.523
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Watson Island Sea Port",
+   "tier": "landmark",
+   "coords": [
+    -506.3310423296814,
+    517.6986548689559
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -418.71556250000003,
+    523.33715625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Domed Hills",
+   "tier": "landmark",
+   "coords": [
+    -316.42693845062547,
+    370.9013247964502
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cal's House",
+   "tier": "landmark",
+   "coords": [
+    -720.33890625,
+    418.843640625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hamilton Private Health Clinic",
+   "tier": "landmark",
+   "coords": [
+    -674.80165625,
+    449.495875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fuzzard Power Station (S)",
+   "tier": "landmark",
+   "coords": [
+    -623.7813125,
+    462.3366875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fuzzard Power Station (1)",
+   "tier": "landmark",
+   "coords": [
+    -628.64384375,
+    464.7273125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fuzzard Power Station (2)",
+   "tier": "landmark",
+   "coords": [
+    -629.9160859375,
+    464.751296875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fuzzard Power Station (3)",
+   "tier": "landmark",
+   "coords": [
+    -631.1754375,
+    464.7385
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sculpture",
+   "tier": "landmark",
+   "coords": [
+    -522.2629296875,
+    501.60253125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -463.946578125,
+    427.923875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -484.6343366290308,
+    441.55575002757377
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -359.97254953463425,
+    425.7191576158593
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -355.17449574963246,
+    431.7798695958321
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radio Tower",
+   "tier": "landmark",
+   "coords": [
+    -408.97912863208296,
+    447.72897080701733
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Motorcycle Memorial",
+   "tier": "landmark",
+   "coords": [
+    -291.72215625,
+    360.98046875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -465.9163125,
+    572.71075
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Outdoor Movie Screen?",
+   "tier": "landmark",
+   "coords": [
+    -619.700245110814,
+    362.8901396608107
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -280.12357881093396,
+    373.18945251917035
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -280.9967226091797,
+    376.4766475525788
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Hall",
+   "tier": "landmark",
+   "coords": [
+    -580.3647261194712,
+    482.04772024657933
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Empty Lot",
+   "tier": "landmark",
+   "coords": [
+    -482.0685871636132,
+    492.3785609262574
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Limit HQ",
+   "tier": "landmark",
+   "coords": [
+    -516.5698955708934,
+    484.28453113404396
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Tower (1)",
+   "tier": "landmark",
+   "coords": [
+    -597.412118108349,
+    420.98677190296473
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Tower (2)",
+   "tier": "landmark",
+   "coords": [
+    -598.1862495245858,
+    426.1073000846559
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Tower (3)",
+   "tier": "landmark",
+   "coords": [
+    -600.6654989509854,
+    430.3773859594852
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Tower (4)",
+   "tier": "landmark",
+   "coords": [
+    -603.0067782209079,
+    428.9021074231383
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Tower (5)",
+   "tier": "landmark",
+   "coords": [
+    -603.6104219856775,
+    420.70006120932027
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Tower (6)",
+   "tier": "landmark",
+   "coords": [
+    -600.347225935001,
+    417.8269491216308
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Office Building",
+   "tier": "landmark",
+   "coords": [
+    -387.8481545638837,
+    425.1824251203871
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Warehouse",
+   "tier": "landmark",
+   "coords": [
+    -393.35864993664416,
+    425.94298930925305
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Football Stadium?",
+   "tier": "landmark",
+   "coords": [
+    -374.9433817128487,
+    412.36952060769227
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Allied Crystal Stadium",
+   "tier": "landmark",
+   "coords": [
+    -365.3258630654475,
+    426.52225966622757
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mason's Shrimp Shack",
+   "tier": "landmark",
+   "coords": [
+    -376.644808912928,
+    307.05892757765014
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pier",
+   "tier": "landmark",
+   "coords": [
+    -404.00409375,
+    305.74199999999996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pier",
+   "tier": "landmark",
+   "coords": [
+    -405.39471875,
+    304.49199999999996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Juice Fruit Sign",
+   "tier": "landmark",
+   "coords": [
+    -398.14073437499997,
+    306.8730625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -413.79540625,
+    313.2463125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Welcome to Port Gellhorn Sign",
+   "tier": "landmark",
+   "coords": [
+    -422.891265625,
+    315.343625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wasteland Off-Road",
+   "tier": "landmark",
+   "coords": [
+    -379.884226128853,
+    315.3816258748792
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -498.17172262114144,
+    478.8809091533561
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cafe Carraway",
+   "tier": "landmark",
+   "coords": [
+    -545.1234561026931,
+    483.80338216719105
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Canal",
+   "tier": "landmark",
+   "coords": [
+    -392.5211875,
+    297.748015625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "MacAlister Gold Mine",
+   "tier": "landmark",
+   "coords": [
+    -295.03464636951435,
+    383.4057730412925
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake Leonida",
+   "tier": "landmark",
+   "coords": [
+    -364.12727191946607,
+    450.2762935087698
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tisha-Wocka Flea Market",
+   "tier": "landmark",
+   "coords": [
+    -489.61240682889655,
+    424.93169514208233
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Mariana Island\"",
+   "tier": "landmark",
+   "coords": [
+    -634.3443740826172,
+    284.4388252257861
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pawn Shop",
+   "tier": "landmark",
+   "coords": [
+    -530.9425729583409,
+    466.747281393356
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Muscle Sands",
+   "tier": "landmark",
+   "coords": [
+    -499.8717314424295,
+    575.177507382063
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Yellow House\"",
+   "tier": "landmark",
+   "coords": [
+    -682.97884375,
+    442.66178125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mandy's House",
+   "tier": "landmark",
+   "coords": [
+    -682.5754218750001,
+    442.93325
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"White House\"",
+   "tier": "landmark",
+   "coords": [
+    -682.2212873624558,
+    443.16640669649644
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Garage",
+   "tier": "landmark",
+   "coords": [
+    -473.753328125,
+    557.405
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -512.2413125,
+    492.75296875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wonder Whale?",
+   "tier": "landmark",
+   "coords": [
+    -713.1826874999999,
+    420.096890625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cell Tower",
+   "tier": "landmark",
+   "coords": [
+    -674.6547657812923,
+    452.90613370214385
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wholesale Furniture Outlet",
+   "tier": "landmark",
+   "coords": [
+    -562.9662740858768,
+    463.2967667783866
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Warehouse",
+   "tier": "landmark",
+   "coords": [
+    -402.588855529559,
+    426.253370706302
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Warehouse",
+   "tier": "landmark",
+   "coords": [
+    -402.6844705288951,
+    424.50563790434154
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Warehouse",
+   "tier": "landmark",
+   "coords": [
+    -403.70188151136074,
+    422.45001308460064
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tank",
+   "tier": "landmark",
+   "coords": [
+    -392.1264741363235,
+    428.0471780411708
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tank",
+   "tier": "landmark",
+   "coords": [
+    -393.59596039927294,
+    428.922890025803
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Warehouse",
+   "tier": "landmark",
+   "coords": [
+    -401.95519888392937,
+    417.3893457208027
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cospace",
+   "tier": "landmark",
+   "coords": [
+    -486.521375,
+    496.27840625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Catalan Boulevard Bridge",
+   "tier": "landmark",
+   "coords": [
+    -533.2510794140095,
+    496.4287874984397
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Trailer Park",
+   "tier": "landmark",
+   "coords": [
+    -388.64998437500003,
+    299.5160078125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Underwater Ruins",
+   "tier": "landmark",
+   "coords": [
+    -594.8146833855117,
+    528.5527307846505
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Capri City Jackals Stadium",
+   "tier": "landmark",
+   "coords": [
+    -518.5828171703961,
+    311.71313833702004
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sugar Fields",
+   "tier": "landmark",
+   "coords": [
+    -404.5695372548387,
+    449.87093444057297
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bobcat Key",
+   "tier": "landmark",
+   "coords": [
+    -559.7375835031661,
+    309.37998825109673
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Corkscrew Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -443.01917420693934,
+    324.9087240248339
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Phil's Ammu-Nation",
+   "tier": "landmark",
+   "coords": [
+    -588.9548593750001,
+    455.374609375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane (2)",
+   "tier": "landmark",
+   "coords": [
+    -366.1230820098305,
+    266.0905386597493
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Container Crane (3)",
+   "tier": "landmark",
+   "coords": [
+    -368.4837611673885,
+    272.6576662677229
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ammu-Nation?",
+   "tier": "landmark",
+   "coords": [
+    -492.107640625,
+    473.05234375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -532.5478748705988,
+    462.7644095858805
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bite",
+   "tier": "landmark",
+   "coords": [
+    -487.55071875,
+    468.97115625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bump & Grind",
+   "tier": "landmark",
+   "coords": [
+    -487.13671875,
+    468.91646875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Harmon & Fenix",
+   "tier": "landmark",
+   "coords": [
+    -486.92578125,
+    469.15865625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Core Software",
+   "tier": "landmark",
+   "coords": [
+    -486.94921875,
+    469.51021875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "ShoreFront",
+   "tier": "landmark",
+   "coords": [
+    -486.95703125,
+    469.89303125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "? Flare",
+   "tier": "landmark",
+   "coords": [
+    -392.43215625,
+    313.3585625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pawn Shop?",
+   "tier": "landmark",
+   "coords": [
+    -391.86825,
+    313.22418749999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Happy Nails",
+   "tier": "landmark",
+   "coords": [
+    -391.382828125,
+    313.4235625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wet & Wild Pet Store",
+   "tier": "landmark",
+   "coords": [
+    -390.91807812499997,
+    313.39434374999996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Game Horde",
+   "tier": "landmark",
+   "coords": [
+    -390.66756250000003,
+    313.39371874999995
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Marco Wholesale Footwear",
+   "tier": "landmark",
+   "coords": [
+    -458.5753125,
+    497.34815625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Kudzu House",
+   "tier": "landmark",
+   "coords": [
+    -448.43075,
+    384.47228125000004
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Guard Booth",
+   "tier": "landmark",
+   "coords": [
+    -390.0421112160209,
+    425.6838809956065
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Autograph Flight Support Building",
+   "tier": "landmark",
+   "coords": [
+    -515.48271875,
+    436.18415625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Radio Tower",
+   "tier": "landmark",
+   "coords": [
+    -405.6029375,
+    311.822125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -356.887234375,
+    308.17765625000004
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Main Gate",
+   "tier": "landmark",
+   "coords": [
+    -603.5479787575221,
+    428.1700434241085
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sandeep Plaza",
+   "tier": "landmark",
+   "coords": [
+    -469.48734375,
+    567.35259375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pool",
+   "tier": "landmark",
+   "coords": [
+    -403.5112435815636,
+    345.8492771570899
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -586.625459128649,
+    384.48815762830344
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower?",
+   "tier": "landmark",
+   "coords": [
+    -711.569734375,
+    309.31584375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake Bonner",
+   "tier": "landmark",
+   "coords": [
+    -402.25406747734763,
+    513.4890099546953
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Whiz",
+   "tier": "landmark",
+   "coords": [
+    -614.6966875,
+    442.5004375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tequesta Station",
+   "tier": "landmark",
+   "coords": [
+    -549.9267984477776,
+    483.92046989025084
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Autograph",
+   "tier": "landmark",
+   "coords": [
+    -514.6228333842848,
+    428.18550131278937
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Runway",
+   "tier": "landmark",
+   "coords": [
+    -520.5410079588844,
+    422.6170238766532
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Runway",
+   "tier": "landmark",
+   "coords": [
+    -544.5274309976008,
+    422.87814322243025
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Beach Police Department",
+   "tier": "landmark",
+   "coords": [
+    -499.49512500000003,
+    558.71715625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -614.828359375,
+    432.15728125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Golf Carts",
+   "tier": "landmark",
+   "coords": [
+    -434.96016876319254,
+    303.1496939086049
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Canal",
+   "tier": "landmark",
+   "coords": [
+    -390.63262604304566,
+    494.5834748490886
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Canal",
+   "tier": "landmark",
+   "coords": [
+    -463.47528670158806,
+    563.094784430093
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -423.74950084836917,
+    549.9239938060518
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -435.6598558450649,
+    544.9923056963813
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Marbles",
+   "tier": "landmark",
+   "coords": [
+    -678.9269218750001,
+    449.2321875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -653.5070455868524,
+    465.6451998453598
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Liquor Store",
+   "tier": "landmark",
+   "coords": [
+    -474.196375,
+    491.41028125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -432.16363307312724,
+    534.1545541594203
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Boat Ramp",
+   "tier": "landmark",
+   "coords": [
+    -353.59901020401514,
+    432.16449466131655
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -391.5299412066116,
+    434.97395316104166
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Intersection",
+   "tier": "landmark",
+   "coords": [
+    -685.5180625,
+    440.26246875000004
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Baseball Field?",
+   "tier": "landmark",
+   "coords": [
+    -381.6222568380874,
+    408.61057073630553
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Star Island Bridge",
+   "tier": "landmark",
+   "coords": [
+    -506.1838619782568,
+    533.1611592326284
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Maple Syrup Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -314.6283125,
+    346.438921875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Manifest Canyon",
+   "tier": "landmark",
+   "coords": [
+    -351.7893014898661,
+    356.05298812353294
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -599.2070540489464,
+    419.483270723691
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -599.7824510212401,
+    420.3296521058205
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -597.8210617310748,
+    423.15128829155555
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -600.2725215364185,
+    421.77388314061676
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -356.85137576578876,
+    385.2553003928035
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Banner Hotel & Spa",
+   "tier": "landmark",
+   "coords": [
+    -537.439421875,
+    459.065625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Garage",
+   "tier": "landmark",
+   "coords": [
+    -487.198875,
+    485.64596875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -340.4975712470442,
+    428.0727882945338
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fuzzard Drain Canal",
+   "tier": "landmark",
+   "coords": [
+    -594.823062999821,
+    447.83550621748185
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lighthouse",
+   "tier": "landmark",
+   "coords": [
+    -601.0998465835224,
+    499.54961371947786
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -465.23459375,
+    575.92715625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Euroform Automotive",
+   "tier": "landmark",
+   "coords": [
+    -515.936875,
+    475.89846875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "P?",
+   "tier": "landmark",
+   "coords": [
+    -455.042375,
+    556.79525
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Abandoned Hovercraft",
+   "tier": "landmark",
+   "coords": [
+    -456.01596875,
+    227.1946875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Piano",
+   "tier": "landmark",
+   "coords": [
+    -463.19564790263075,
+    515.4660124920771
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "162°S",
+   "tier": "landmark",
+   "coords": [
+    -452.99528125,
+    503.532484375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bohemia",
+   "tier": "landmark",
+   "coords": [
+    -457.7568194395635,
+    500.4179183912608
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Chip's Body Shop",
+   "tier": "landmark",
+   "coords": [
+    -713.92075,
+    419.01182812499997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Peewees",
+   "tier": "landmark",
+   "coords": [
+    -586.1596753616981,
+    460.37024568921333
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gellhorn Roadhouse",
+   "tier": "landmark",
+   "coords": [
+    -390.3601182512259,
+    316.2686537262708
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -602.037926247722,
+    421.7405961012092
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Airfield",
+   "tier": "landmark",
+   "coords": [
+    -384.7848803355829,
+    379.57411887695366
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -334.27367818711514,
+    423.18529570030535
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Escher Bridge\"",
+   "tier": "landmark",
+   "coords": [
+    -336.24125656218644,
+    426.67602662387424
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -614.6555528037883,
+    381.21164574741215
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -611.5761454286444,
+    370.1200836589863
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -461.17334375,
+    570.31890625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -467.0770625,
+    570.066125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -463.514296875,
+    570.41109375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -500.0201875,
+    566.1251875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -495.67295133229544,
+    499.2928787852048
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -488.62015625,
+    470.5664375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -490.02640625,
+    469.46484375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -456.2319375,
+    500.816375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Brian's Marina Workshop",
+   "tier": "landmark",
+   "coords": [
+    -697.061607637872,
+    432.1281231173589
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Boat Ramp",
+   "tier": "landmark",
+   "coords": [
+    -736.5122880746304,
+    358.7337839403908
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gellhorn Roadhouse Sign",
+   "tier": "landmark",
+   "coords": [
+    -389.440875,
+    315.49959375000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -419.64359375,
+    312.51509375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tank",
+   "tier": "landmark",
+   "coords": [
+    -397.2638501950937,
+    423.27624648332625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -627.5021588195573,
+    414.339176402145
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Vake Island\"",
+   "tier": "landmark",
+   "coords": [
+    -759.7549992861203,
+    399.31690933861285
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Court",
+   "tier": "landmark",
+   "coords": [
+    -514.5268125,
+    558.973125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pool",
+   "tier": "landmark",
+   "coords": [
+    -517.799078125,
+    559.054
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "National Coast Guard",
+   "tier": "landmark",
+   "coords": [
+    -512.745108333775,
+    546.2164648325247
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tunnel Entrance",
+   "tier": "landmark",
+   "coords": [
+    -532.2935503054248,
+    527.9790234619527
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Electric Fang Tattoo",
+   "tier": "landmark",
+   "coords": [
+    -454.51390625,
+    500.167484375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Stock 305",
+   "tier": "landmark",
+   "coords": [
+    -456.80884375,
+    501.729125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "PTT YOUNGIN$ Illegal Goods Store",
+   "tier": "landmark",
+   "coords": [
+    -569.0626841976848,
+    458.4335681715119
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Paradise Garage",
+   "tier": "landmark",
+   "coords": [
+    -587.7574573501818,
+    384.25010948858915
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Catalan Bay",
+   "tier": "landmark",
+   "coords": [
+    -516.362140625,
+    529.37425
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -480.94271875,
+    502.38009375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fake Tunnel Mural",
+   "tier": "landmark",
+   "coords": [
+    -444.560109375,
+    505.6586875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tank",
+   "tier": "landmark",
+   "coords": [
+    -394.0982485017371,
+    419.06342531177586
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tank",
+   "tier": "landmark",
+   "coords": [
+    -393.48202619327105,
+    420.3135895439955
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Warehouse",
+   "tier": "landmark",
+   "coords": [
+    -400.2695212649838,
+    418.47223167798575
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -283.16447793996826,
+    415.0649990089597
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Arrow Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -675.2878674315724,
+    444.88347700216303
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Big House",
+   "tier": "landmark",
+   "coords": [
+    -489.68426435087844,
+    492.83895462090226
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -402.1144205902091,
+    313.88654767896764
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Airfield",
+   "tier": "landmark",
+   "coords": [
+    -338.47326581939205,
+    378.9964941740229
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 16",
+   "tier": "landmark",
+   "coords": [
+    -443.775,
+    329.1471875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 18",
+   "tier": "landmark",
+   "coords": [
+    -430.47266391838775,
+    334.6827265007376
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 20",
+   "tier": "landmark",
+   "coords": [
+    -442.66821875,
+    320.77468749999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 32",
+   "tier": "landmark",
+   "coords": [
+    -477.67634182569594,
+    301.2720942998012
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -499.99654678826045,
+    320.90642213521863
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Mount Leonida\"",
+   "tier": "landmark",
+   "coords": [
+    -315.2101885993711,
+    431.97637406324776
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tortoise Lake",
+   "tier": "landmark",
+   "coords": [
+    -501.3431272183172,
+    308.6167681740453
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Emerald River",
+   "tier": "landmark",
+   "coords": [
+    -450.52668925405175,
+    373.40262525628094
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wild Hog Airfield",
+   "tier": "landmark",
+   "coords": [
+    -410.3598275654906,
+    282.778433994508
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hobbs Milford",
+   "tier": "landmark",
+   "coords": [
+    -456.86303125,
+    557.71771875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gulf of Leonida",
+   "tier": "landmark",
+   "coords": [
+    -473.9033582743908,
+    204.74698329717728
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Atlantic Ocean",
+   "tier": "landmark",
+   "coords": [
+    -474.2865912682382,
+    610.3571856288506
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leonida Straits",
+   "tier": "landmark",
+   "coords": [
+    -762,
+    430.4686226688866
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Dudz Island\"",
+   "tier": "landmark",
+   "coords": [
+    -665.4421914544473,
+    322.80394140505996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Airfield",
+   "tier": "landmark",
+   "coords": [
+    -267.53310317705206,
+    399.29028680992786
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Henry J Edwards Airport",
+   "tier": "landmark",
+   "coords": [
+    -589.128795227723,
+    327.4527978976746
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Southpoint Airfield",
+   "tier": "landmark",
+   "coords": [
+    -650.1664989223889,
+    425.24354802252594
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Dawson Dam",
+   "tier": "landmark",
+   "coords": [
+    -298.7392539724523,
+    422.07275013030505
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Airfield",
+   "tier": "landmark",
+   "coords": [
+    -407.66445907821196,
+    462.847086496159
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sundown Private Airfield",
+   "tier": "landmark",
+   "coords": [
+    -375.7605224888789,
+    486.4591531792236
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Airfield",
+   "tier": "landmark",
+   "coords": [
+    -603.1586278703569,
+    383.67259662035684
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Boone Speedway",
+   "tier": "landmark",
+   "coords": [
+    -617.4897408905933,
+    415.38394417382415
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Church",
+   "tier": "landmark",
+   "coords": [
+    -612.2548670503807,
+    422.75028624177344
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hospital",
+   "tier": "landmark",
+   "coords": [
+    -583.54315625,
+    458.35803125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -580.37759375,
+    459.7085625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Strip Mall",
+   "tier": "landmark",
+   "coords": [
+    -577.174828125,
+    460.04587499999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Baller Dealership",
+   "tier": "landmark",
+   "coords": [
+    -584.7651252472365,
+    462.5467389447008
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Juicy Joes",
+   "tier": "landmark",
+   "coords": [
+    -582.504484375,
+    450.63875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gator Plaza",
+   "tier": "landmark",
+   "coords": [
+    -588.3502187500001,
+    454.852609375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Marlin Motors",
+   "tier": "landmark",
+   "coords": [
+    -566.70615625,
+    461.00996875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "WLC Community Centre",
+   "tier": "landmark",
+   "coords": [
+    -574.62503125,
+    446.40184375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Railyard",
+   "tier": "landmark",
+   "coords": [
+    -490.0700625,
+    443.249375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Casino Racetrack",
+   "tier": "landmark",
+   "coords": [
+    -418.62626128260916,
+    506.9328226676774
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Schlott Construction",
+   "tier": "landmark",
+   "coords": [
+    -576.217421875,
+    448.817625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Beacon Circle Park",
+   "tier": "landmark",
+   "coords": [
+    -504.99415625,
+    295.984125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Motorcycle Customs Shop?",
+   "tier": "landmark",
+   "coords": [
+    -577.928953125,
+    447.49793750000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mattress Madness",
+   "tier": "landmark",
+   "coords": [
+    -580.9902054304283,
+    448.33926853424896
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vapid Dealership",
+   "tier": "landmark",
+   "coords": [
+    -585.0975,
+    449.892140625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -535.8425724567193,
+    317.1719907537585
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Welcome Sign",
+   "tier": "landmark",
+   "coords": [
+    -522.662875,
+    309.92303125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -518.6065994681509,
+    307.8825877506105
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Spender's",
+   "tier": "landmark",
+   "coords": [
+    -589.581015625,
+    451.2625625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -521.2310660804491,
+    473.18501506055446
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Shopping Plaza",
+   "tier": "landmark",
+   "coords": [
+    -462.20969768731993,
+    498.7507080663181
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Garage",
+   "tier": "landmark",
+   "coords": [
+    -528.9868422203676,
+    481.9008730934689
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Redford Gallery",
+   "tier": "landmark",
+   "coords": [
+    -454.51043749999997,
+    500.5119375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Avis",
+   "tier": "landmark",
+   "coords": [
+    -453.635328125,
+    499.6201875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lârss & Elbö",
+   "tier": "landmark",
+   "coords": [
+    -453.6095,
+    501.12034375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "84",
+   "tier": "landmark",
+   "coords": [
+    -457.1156875,
+    499.48225
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bean Machine",
+   "tier": "landmark",
+   "coords": [
+    -460.759140625,
+    499.1536875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "247 Supermarket",
+   "tier": "landmark",
+   "coords": [
+    -460.872875,
+    498.6136875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Al Dentes",
+   "tier": "landmark",
+   "coords": [
+    -461.310375,
+    499.7701875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Allure Resort Services",
+   "tier": "landmark",
+   "coords": [
+    -461.8755,
+    498.03940625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Orion K?",
+   "tier": "landmark",
+   "coords": [
+    -462.53175,
+    497.68003125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Redshaw's Gas & General Store",
+   "tier": "landmark",
+   "coords": [
+    -294.091484375,
+    413.17420312499996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Melody Theater",
+   "tier": "landmark",
+   "coords": [
+    -489.57878854767995,
+    490.1297350079621
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shoreline Market",
+   "tier": "landmark",
+   "coords": [
+    -515.492171875,
+    505.74365625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Downtown Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -500.9605114846898,
+    492.4381281743618
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Hub Gallery",
+   "tier": "landmark",
+   "coords": [
+    -454.499,
+    499.9295625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Harrison B. Copeland Community Center",
+   "tier": "landmark",
+   "coords": [
+    -559.2034375,
+    482.15315625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "We Have Shoes",
+   "tier": "landmark",
+   "coords": [
+    -390.41690625,
+    313.41371875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tobacco",
+   "tier": "landmark",
+   "coords": [
+    -390.18253125,
+    313.41375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Deadzombie",
+   "tier": "landmark",
+   "coords": [
+    -458.15696875000003,
+    498.90328125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Evoke",
+   "tier": "landmark",
+   "coords": [
+    -458.57884375000003,
+    498.70009375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Footbridge",
+   "tier": "landmark",
+   "coords": [
+    -516.7037940222466,
+    308.8285179254823
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pier",
+   "tier": "landmark",
+   "coords": [
+    -516.908921875,
+    287.497390625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "King's Crown Hotel",
+   "tier": "landmark",
+   "coords": [
+    -503.22625,
+    304.017625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tank",
+   "tier": "landmark",
+   "coords": [
+    -513.7474115197263,
+    310.68612369814434
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Water Tower",
+   "tier": "landmark",
+   "coords": [
+    -512.8347324248199,
+    313.5458980048104
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -574.24190625,
+    462.26940625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Church",
+   "tier": "landmark",
+   "coords": [
+    -542.9278510528883,
+    468.9113095177304
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Chacey's",
+   "tier": "landmark",
+   "coords": [
+    -590.5748050646092,
+    456.91073433915
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cell Tower Lot",
+   "tier": "landmark",
+   "coords": [
+    -583.2693305336782,
+    452.74291244998614
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Church",
+   "tier": "landmark",
+   "coords": [
+    -573.9653125,
+    451.94068749999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lock",
+   "tier": "landmark",
+   "coords": [
+    -630.3963287607935,
+    442.68961928993974
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lock",
+   "tier": "landmark",
+   "coords": [
+    -592.4314632556172,
+    449.02615921552746
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lock",
+   "tier": "landmark",
+   "coords": [
+    -565.755287893679,
+    457.1430317944969
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -538.7351621748687,
+    311.19990360674205
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Vinyl",
+   "tier": "landmark",
+   "coords": [
+    -459.8410369369075,
+    500.09262056231194
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fleeca",
+   "tier": "landmark",
+   "coords": [
+    -455.71991623077275,
+    559.1040532913061
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Eye & Dry",
+   "tier": "landmark",
+   "coords": [
+    -456.9463125,
+    558.7078750000001
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Diamond Dawgs",
+   "tier": "landmark",
+   "coords": [
+    -457.023265625,
+    559.22796875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Glazin' Glory",
+   "tier": "landmark",
+   "coords": [
+    -455.5159375,
+    558.03071875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sandbars",
+   "tier": "landmark",
+   "coords": [
+    -411.5973256077266,
+    222.7499319721029
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Corsair Key",
+   "tier": "landmark",
+   "coords": [
+    -653.6419375,
+    472.81153125000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -356.05940625,
+    356.48021875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Casino",
+   "tier": "landmark",
+   "coords": [
+    -486.2697220910133,
+    381.2198922955066
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Dam?",
+   "tier": "landmark",
+   "coords": [
+    -294.2058125,
+    468.302875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 34",
+   "tier": "landmark",
+   "coords": [
+    -464.4343736068403,
+    294.16192232174825
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 2",
+   "tier": "landmark",
+   "coords": [
+    -446.687125,
+    290.1035
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Ambrosia Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -336.1816794981691,
+    404.17753761104245
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -320.6222720532282,
+    337.75140442015777
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Bridge Ridge\"",
+   "tier": "landmark",
+   "coords": [
+    -388.20282016278,
+    381.29922443152714
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Lollipop Ridge\"",
+   "tier": "landmark",
+   "coords": [
+    -411.358375,
+    377.13121875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Thrillbilly Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -366.3362206312962,
+    398.12497545633244
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 27",
+   "tier": "landmark",
+   "coords": [
+    -477.4374420288442,
+    310.809347426965
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -578.6090020003745,
+    411.1663809439492
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -570.85028125,
+    442.4265625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Public Restrooms",
+   "tier": "landmark",
+   "coords": [
+    -467.117234375,
+    575.772
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Drawbridge",
+   "tier": "landmark",
+   "coords": [
+    -494.14199330931757,
+    289.1555019380413
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Catalyst Realty",
+   "tier": "landmark",
+   "coords": [
+    -456.8166875,
+    557.1931875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lulu",
+   "tier": "landmark",
+   "coords": [
+    -456.8010625,
+    556.7556875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ajax Gym",
+   "tier": "landmark",
+   "coords": [
+    -456.808875,
+    556.3806875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Papasco's",
+   "tier": "landmark",
+   "coords": [
+    -457.512,
+    558.7244375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -410.9135868252543,
+    540.3046053723391
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -480.1092499902729,
+    498.914147343662
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Public Restrooms",
+   "tier": "landmark",
+   "coords": [
+    -576.9625087569309,
+    531.6757185960641
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -473.89753125,
+    525.47175
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -471.87409375,
+    532.72175
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station",
+   "tier": "landmark",
+   "coords": [
+    -496.1346558625248,
+    308.114584892846
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Flying Whale Seaplane Adventures",
+   "tier": "landmark",
+   "coords": [
+    -526.3779823654937,
+    306.5885487992175
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Capri Fire Rescue Station 20",
+   "tier": "landmark",
+   "coords": [
+    -508.4866749567465,
+    309.62376400490484
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wilma White Center",
+   "tier": "landmark",
+   "coords": [
+    -505.2849035556488,
+    310.3032394874199
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Chariot Capri",
+   "tier": "landmark",
+   "coords": [
+    -514.689171842642,
+    292.92985395278265
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fontana Motorsports",
+   "tier": "landmark",
+   "coords": [
+    -503.3814574241965,
+    314.49870487775945
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -576.2411148699475,
+    529.830625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Breakwater",
+   "tier": "landmark",
+   "coords": [
+    -521.2987366668709,
+    295.3332008051493
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cosmetic Surgeon of Capri",
+   "tier": "landmark",
+   "coords": [
+    -499.3751308913287,
+    301.41344735709583
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Capri Regional Medical Center",
+   "tier": "landmark",
+   "coords": [
+    -515.8562247904723,
+    297.10781606611476
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Capri Insurance Agency",
+   "tier": "landmark",
+   "coords": [
+    -501.09797467668557,
+    302.79345861752813
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Madewell Lumber",
+   "tier": "landmark",
+   "coords": [
+    -496.84795793652427,
+    300.2200636507265
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Dark & Stormy",
+   "tier": "landmark",
+   "coords": [
+    -564.8864585675753,
+    474.52946210702663
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Donovan Banks & Co.",
+   "tier": "landmark",
+   "coords": [
+    -565.8586525789055,
+    474.36812996481217
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Convincing Korean BBQ",
+   "tier": "landmark",
+   "coords": [
+    -566.7689329375694,
+    474.88816615104645
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station",
+   "tier": "landmark",
+   "coords": [
+    -389.38750822500003,
+    511.1708993022318
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station",
+   "tier": "landmark",
+   "coords": [
+    -317.7165042045548,
+    490.745523163738
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station",
+   "tier": "landmark",
+   "coords": [
+    -284.72507837129166,
+    391.35687200750493
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 31",
+   "tier": "landmark",
+   "coords": [
+    -456.12713710202905,
+    299.1423475479527
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -273.27864449907264,
+    441.10290531365916
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Carousell Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -430.2104156397722,
+    335.4096895143989
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Kelly Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -418.7011105572681,
+    338.5812776212862
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Starlet Hill\"",
+   "tier": "landmark",
+   "coords": [
+    -400.9565896397744,
+    333.56835463981247
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -400.5437218790103,
+    382.23065573343376
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Stage",
+   "tier": "landmark",
+   "coords": [
+    -618.265625,
+    430.1249375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Perkins Deli",
+   "tier": "landmark",
+   "coords": [
+    -463.58179940418046,
+    500.42942259206944
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Josefina",
+   "tier": "landmark",
+   "coords": [
+    -463.23089062500003,
+    500.637734375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bruiser? Skate Shop",
+   "tier": "landmark",
+   "coords": [
+    -462.892828125,
+    500.796796875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Railyard",
+   "tier": "landmark",
+   "coords": [
+    -274.3183825761952,
+    403.5479007389388
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Port",
+   "tier": "landmark",
+   "coords": [
+    -293.9996875,
+    488.17915625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Mount Lummox\"",
+   "tier": "landmark",
+   "coords": [
+    -269.6774107504675,
+    391.85754543688086
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Whiz",
+   "tier": "landmark",
+   "coords": [
+    -389.94275,
+    313.4045
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -566.9239090816475,
+    512.2767591467156
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -566.7358731653287,
+    514.5882094926004
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station?",
+   "tier": "landmark",
+   "coords": [
+    -417.38827702853115,
+    500.3387963205834
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station?",
+   "tier": "landmark",
+   "coords": [
+    -465.5796641067038,
+    436.99046748415805
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Casino",
+   "tier": "landmark",
+   "coords": [
+    -414.8500196002814,
+    506.59079978417395
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Broadcast Tower",
+   "tier": "landmark",
+   "coords": [
+    -390.1844329991004,
+    472.44292103259494
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Crys",
+   "tier": "landmark",
+   "coords": [
+    -416.53493918096825,
+    498.72753863961736
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Riquezas Keys",
+   "tier": "landmark",
+   "coords": [
+    -681.33884375,
+    259.42146875000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parlor WO13?",
+   "tier": "landmark",
+   "coords": [
+    -457.07528125,
+    559.73453125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Anderson",
+   "tier": "landmark",
+   "coords": [
+    -511.7426875,
+    565.53715625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Palometa Seafood Restaurant",
+   "tier": "landmark",
+   "coords": [
+    -510.57890625,
+    563.87725
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bite",
+   "tier": "landmark",
+   "coords": [
+    -613.371640625,
+    442.50834375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station",
+   "tier": "landmark",
+   "coords": [
+    -296.51012608656424,
+    344.0192881606664
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fleeca",
+   "tier": "landmark",
+   "coords": [
+    -510.6053125,
+    564.957625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Frills & Fancy",
+   "tier": "landmark",
+   "coords": [
+    -495.0311954177698,
+    562.0236458354676
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lombank",
+   "tier": "landmark",
+   "coords": [
+    -511.490953125,
+    563.85684375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pharmacy",
+   "tier": "landmark",
+   "coords": [
+    -497.09759375,
+    557.76809375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bean Machine",
+   "tier": "landmark",
+   "coords": [
+    -497.31634375,
+    563.01809375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Electrical",
+   "tier": "landmark",
+   "coords": [
+    -489.19159375,
+    564.86678125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hobbs Milford",
+   "tier": "landmark",
+   "coords": [
+    -486.809234375,
+    563.7078750000001
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Void",
+   "tier": "landmark",
+   "coords": [
+    -473.7223719046742,
+    561.0694846679543
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ocean Beach Pharmacy",
+   "tier": "landmark",
+   "coords": [
+    -471.94634375,
+    567.0410625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -376.3950204069308,
+    386.1902204750661
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Juxta Gallery",
+   "tier": "landmark",
+   "coords": [
+    -472.19246875,
+    560.87534375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lickety Split",
+   "tier": "landmark",
+   "coords": [
+    -472.74715625,
+    560.90659375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pharaoh",
+   "tier": "landmark",
+   "coords": [
+    -469.9059207393553,
+    567.7605375691318
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Electrotoke",
+   "tier": "landmark",
+   "coords": [
+    -472.979,
+    567.2524375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -459.0629806188269,
+    425.32543448676836
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -562.3915075890947,
+    511.97944106184127
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -562.4503708181148,
+    515.2015036764313
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -563.521296875,
+    517.92140625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -562.75428125,
+    517.339375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -565.1184543010764,
+    516.6290779569891
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -564.95453125,
+    510.975125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -568.61859375,
+    517.4673125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -568.323159070063,
+    512.669489086252
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -564.04384375,
+    517.46140625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Oceanarium",
+   "tier": "landmark",
+   "coords": [
+    -567.3730312499999,
+    517.03975
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Oceanside Style",
+   "tier": "landmark",
+   "coords": [
+    -469.96415625,
+    567.22678125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Luna",
+   "tier": "landmark",
+   "coords": [
+    -473.2165096183771,
+    561.0031895067657
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "City Picnic Market",
+   "tier": "landmark",
+   "coords": [
+    -473.66728125,
+    567.25809375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -336.11501683939036,
+    498.37840625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -477.84248231062463,
+    346.02600419057563
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -429.65799642973025,
+    563.8776779573233
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -423.1623948693467,
+    558.7660666433322
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -453.89346875,
+    498.6488125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fufu",
+   "tier": "landmark",
+   "coords": [
+    -441.7255179583584,
+    501.7123312340171
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Car Park",
+   "tier": "landmark",
+   "coords": [
+    -546.608765625,
+    468.2423125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -516.446675847415,
+    486.7434207662473
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Excavator Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -519.7378063987892,
+    483.4705085892616
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Café Coyote",
+   "tier": "landmark",
+   "coords": [
+    -512.2579375,
+    474.010859375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "DJB Shipyard",
+   "tier": "landmark",
+   "coords": [
+    -507.16887495163365,
+    464.9897016371799
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "City of Vice Fire Rescue Station",
+   "tier": "landmark",
+   "coords": [
+    -508.54475,
+    463.77159375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -515.4266425715999,
+    488.0395181240848
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -520.1528141726706,
+    485.16617266432087
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -511.73932656643325,
+    486.83677515122633
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Partytown USA",
+   "tier": "landmark",
+   "coords": [
+    -533.3438489534012,
+    469.7146229687058
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Perfecto Boatyard & Marina",
+   "tier": "landmark",
+   "coords": [
+    -504.9661875,
+    468.00053125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -499.5392423293389,
+    492.3377160266464
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -494.8070117539129,
+    492.29924276372935
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mami's Grocery Market",
+   "tier": "landmark",
+   "coords": [
+    -577.62321875,
+    459.3388125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "A1 Fashions",
+   "tier": "landmark",
+   "coords": [
+    -577.38884375,
+    459.5106875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Rideout Customs",
+   "tier": "landmark",
+   "coords": [
+    -481.52059375,
+    484.951125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Flamingrill",
+   "tier": "landmark",
+   "coords": [
+    -481.89559375,
+    486.076125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Carnicero",
+   "tier": "landmark",
+   "coords": [
+    -482.8558125,
+    486.13775
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vetiver Minimarket",
+   "tier": "landmark",
+   "coords": [
+    -465.22176069847285,
+    480.5283884612854
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -502.16875830065663,
+    559.484496694593
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Banner Parking Garage",
+   "tier": "landmark",
+   "coords": [
+    -533.6646097273842,
+    459.8470054038832
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -532.9368771258587,
+    462.6901519562318
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -534.8161935328135,
+    456.67637279530726
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "G. Hanson",
+   "tier": "landmark",
+   "coords": [
+    -543.175125,
+    462.35362499999997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hangars",
+   "tier": "landmark",
+   "coords": [
+    -551.7051045966093,
+    422.80127642761033
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Service Gate",
+   "tier": "landmark",
+   "coords": [
+    -560.6041134597413,
+    452.7548440843553
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Electric Substation",
+   "tier": "landmark",
+   "coords": [
+    -559.627077886086,
+    453.11573187956424
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gator's Piano Bar?",
+   "tier": "landmark",
+   "coords": [
+    -527.8421419486689,
+    455.9409161602915
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "X Hotel Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -526.4064542254431,
+    457.71874558351294
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Covered Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -525.0625698299007,
+    459.98725174562145
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cash For Scrap Scrapyard",
+   "tier": "landmark",
+   "coords": [
+    -572.2921217897143,
+    450.4851842942252
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gator Plaza Sign",
+   "tier": "landmark",
+   "coords": [
+    -592.6728925116381,
+    450.9646135847804
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Apollo Aggregates",
+   "tier": "landmark",
+   "coords": [
+    -601.8784633739439,
+    454.5801977188547
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -490.52225,
+    452.5160625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "VCAR",
+   "tier": "landmark",
+   "coords": [
+    -512.5836710516616,
+    421.94603429305977
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -369.8810161391145,
+    345.2298751535533
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Break Inn",
+   "tier": "landmark",
+   "coords": [
+    -511.07181567138474,
+    451.9219063602503
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -510.30126646757316,
+    467.99668698149344
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Money Shift",
+   "tier": "landmark",
+   "coords": [
+    -389.6615,
+    312.31075
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Complete Tools",
+   "tier": "landmark",
+   "coords": [
+    -393.724,
+    313.638875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -345.09372416174745,
+    430.30303060515485
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -311.5343261835138,
+    493.9260209873646
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -654.1544677926285,
+    419.77693803980986
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -321.97130112284157,
+    451.612375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Kalaga Reservoir",
+   "tier": "landmark",
+   "coords": [
+    -301.97151381259084,
+    421.3132638125908
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake Tallaloko",
+   "tier": "landmark",
+   "coords": [
+    -289.4252938084021,
+    458.30266986958236
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -538.0569164493929,
+    486.60294314493973
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -285.008384480618,
+    407.682125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Loop?",
+   "tier": "landmark",
+   "coords": [
+    -488.61902443456347,
+    493.70046008557046
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -315.663132882446,
+    423.916973185352
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -284.8673686358931,
+    398.5770263029026
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -512.312458396775,
+    496.5787376043084
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -563.00540625,
+    410.32784375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vicycle",
+   "tier": "landmark",
+   "coords": [
+    -493.753125,
+    470.976125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Go Postal",
+   "tier": "landmark",
+   "coords": [
+    -493.15496875,
+    471.66953125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Welcome to Hamlet\" Sign",
+   "tier": "landmark",
+   "coords": [
+    -612.465046875,
+    442.59056250000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "R",
+   "tier": "landmark",
+   "coords": [
+    -442.7688666434453,
+    501.8027694405742
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Infinity Tower",
+   "tier": "landmark",
+   "coords": [
+    -443.3021129701455,
+    499.9281428225282
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Marina",
+   "tier": "landmark",
+   "coords": [
+    -585.655280652482,
+    483.14179249045884
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Alpha",
+   "tier": "landmark",
+   "coords": [
+    -516.6577583313383,
+    565.8216335524392
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ride & Glide",
+   "tier": "landmark",
+   "coords": [
+    -508.83275100052975,
+    456.9272483282204
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Electric Substation",
+   "tier": "landmark",
+   "coords": [
+    -518.1669476743698,
+    450.99116817708847
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -515.1570196780879,
+    453.7876241609879
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -515.4389956990648,
+    461.62945755961414
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -514.0393606078877,
+    463.299945045116
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -510.58813067373,
+    479.77851851521484
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -511.7240625,
+    498.32621875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -508.2084375,
+    498.07621875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -508.52023202268964,
+    496.20924794615144
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Go Postal Office",
+   "tier": "landmark",
+   "coords": [
+    -474.2405625,
+    556.73315625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ficroth Capital Garage",
+   "tier": "landmark",
+   "coords": [
+    -550.06409375,
+    486.89471875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Station",
+   "tier": "landmark",
+   "coords": [
+    -516.791375,
+    465.98521875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Overkeel",
+   "tier": "landmark",
+   "coords": [
+    -273.89124010004787,
+    475.29546488033924
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Adelphila? Jewelry",
+   "tier": "landmark",
+   "coords": [
+    -516.87159375,
+    567.10825
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Key Lento Sign",
+   "tier": "landmark",
+   "coords": [
+    -681.09496875,
+    447.77471875000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cell Tower",
+   "tier": "landmark",
+   "coords": [
+    -498.6533359375,
+    296.76428124999995
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cell Tower",
+   "tier": "landmark",
+   "coords": [
+    -563.1024220460695,
+    461.27931353891154
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Welcome to Hamlet\" Sign",
+   "tier": "landmark",
+   "coords": [
+    -612.316625,
+    440.76243750000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hamlet Platinum(?) Plaza",
+   "tier": "landmark",
+   "coords": [
+    -613.2946875,
+    441.75809375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -497.72112500000003,
+    560.90653125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Binco",
+   "tier": "landmark",
+   "coords": [
+    -615.07865625,
+    442.47303125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mio",
+   "tier": "landmark",
+   "coords": [
+    -613.6976875,
+    442.4999375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fleeca",
+   "tier": "landmark",
+   "coords": [
+    -614.32475,
+    442.49271875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cash...",
+   "tier": "landmark",
+   "coords": [
+    -615.2935,
+    442.14903125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Paperclips",
+   "tier": "landmark",
+   "coords": [
+    -614.012875,
+    442.4961875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -595.9413794613408,
+    461.08961076024013
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bocamar Bay",
+   "tier": "landmark",
+   "coords": [
+    -372.1122134483325,
+    295.18135346810425
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Third Eye",
+   "tier": "landmark",
+   "coords": [
+    -473.4593125,
+    556.63940625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Y Vice City",
+   "tier": "landmark",
+   "coords": [
+    -461.14718686257993,
+    575.2695622848728
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Paño Rojo",
+   "tier": "landmark",
+   "coords": [
+    -484.32493750000003,
+    563.96709375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -395.4483349332185,
+    444.01030490246063
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -366.899023293061,
+    473.60525886379594
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -359.5382893097476,
+    321.4286592817632
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -314.66856354660837,
+    431.01536413072665
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -294.423482978332,
+    394.44085256847507
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -305.98678231385315,
+    335.21116349062436
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -293.2170370404853,
+    350.5529195541507
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -287.08033795951474,
+    364.044632974814
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -278.55214242807824,
+    382.31936139449704
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Saint Attaway Islands",
+   "tier": "landmark",
+   "coords": [
+    -246.1133948468821,
+    413.34469977192657
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -282.34247314696864,
+    430.83119844995485
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -346.938722689813,
+    432.90454572627954
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -316.50238800279845,
+    440.669592299861
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -355.7814889368004,
+    314.52358735681014
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -354.47292810335813,
+    300.4904004878259
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -360.203522098088,
+    317.321200173135
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -298.64703177330415,
+    475.1216667232247
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -370.1166730434936,
+    354.6372236613254
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -377.98613365920136,
+    347.8658273175769
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -397.2022686055718,
+    370.8336563302379
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 6B",
+   "tier": "landmark",
+   "coords": [
+    -453.34988575748923,
+    303.3418447724677
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 5",
+   "tier": "landmark",
+   "coords": [
+    -426.85183183995827,
+    319.87813136155665
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 6",
+   "tier": "landmark",
+   "coords": [
+    -425.7823125519352,
+    323.93004974753586
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 10",
+   "tier": "landmark",
+   "coords": [
+    -435.692667681077,
+    337.58909792031136
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 11",
+   "tier": "landmark",
+   "coords": [
+    -439.72891567333585,
+    338.0104661286539
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 12",
+   "tier": "landmark",
+   "coords": [
+    -442.8225760214913,
+    335.7724469992338
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 13",
+   "tier": "landmark",
+   "coords": [
+    -445.68656369905,
+    337.0228052274731
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 14",
+   "tier": "landmark",
+   "coords": [
+    -446.5296792313504,
+    331.286356613885
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 15",
+   "tier": "landmark",
+   "coords": [
+    -447.67432627110185,
+    328.2338690980992
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn ?",
+   "tier": "landmark",
+   "coords": [
+    -432.28234375,
+    315.45084375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 7",
+   "tier": "landmark",
+   "coords": [
+    -426.6042219777287,
+    329.0625426936351
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 3",
+   "tier": "landmark",
+   "coords": [
+    -449.0614097214615,
+    305.55918266047445
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 4",
+   "tier": "landmark",
+   "coords": [
+    -435.131240847654,
+    313.2433859410896
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 41",
+   "tier": "landmark",
+   "coords": [
+    -432.34489082271307,
+    304.78296875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 42",
+   "tier": "landmark",
+   "coords": [
+    -436.50941529155034,
+    306.7442300519379
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 1",
+   "tier": "landmark",
+   "coords": [
+    -447.7548640934882,
+    297.4218260623255
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 22",
+   "tier": "landmark",
+   "coords": [
+    -449.42422072295335,
+    317.6541621235382
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 37",
+   "tier": "landmark",
+   "coords": [
+    -449.6816491666333,
+    286.7341952029851
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 38",
+   "tier": "landmark",
+   "coords": [
+    -445.8447921536775,
+    287.82663365806286
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 39",
+   "tier": "landmark",
+   "coords": [
+    -442.96714939396065,
+    291.23717322513465
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 40",
+   "tier": "landmark",
+   "coords": [
+    -443.3540317580898,
+    294.3915466753591
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 4B",
+   "tier": "landmark",
+   "coords": [
+    -443.06039926668115,
+    311.2934734331266
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 4C",
+   "tier": "landmark",
+   "coords": [
+    -438.0011651930919,
+    312.6400376352226
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 25",
+   "tier": "landmark",
+   "coords": [
+    -472.16061081830514,
+    315.31301487192786
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 26",
+   "tier": "landmark",
+   "coords": [
+    -473.6966358562081,
+    313.33104969877115
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 28",
+   "tier": "landmark",
+   "coords": [
+    -476.44660724146183,
+    306.88967262807216
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 29",
+   "tier": "landmark",
+   "coords": [
+    -473.6718557353176,
+    305.40320099146186
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 30",
+   "tier": "landmark",
+   "coords": [
+    -472.7320177467266,
+    304.0806458979886
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 33",
+   "tier": "landmark",
+   "coords": [
+    -470.12044797232966,
+    293.18593737228855
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 35",
+   "tier": "landmark",
+   "coords": [
+    -458.954402014987,
+    290.5086962910078
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 36",
+   "tier": "landmark",
+   "coords": [
+    -455.899527354362,
+    285.15137389953884
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn ?",
+   "tier": "landmark",
+   "coords": [
+    -445.61994361905903,
+    293.5223525499821
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn ?",
+   "tier": "landmark",
+   "coords": [
+    -451.16802996174937,
+    292.2626887882506
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 5B",
+   "tier": "landmark",
+   "coords": [
+    -454.89384645398854,
+    312.163325166669
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 8C",
+   "tier": "landmark",
+   "coords": [
+    -467.7892949211184,
+    311.13336079630074
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 9C",
+   "tier": "landmark",
+   "coords": [
+    -469.33947733553316,
+    306.33086421710664
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 10C",
+   "tier": "landmark",
+   "coords": [
+    -467.622131388173,
+    305.17582218421325
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 11C",
+   "tier": "landmark",
+   "coords": [
+    -465.8439967039597,
+    303.62566593421326
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 23",
+   "tier": "landmark",
+   "coords": [
+    -458.11419193008624,
+    316.51212423950017
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 24",
+   "tier": "landmark",
+   "coords": [
+    -464.5082456283156,
+    316.99312957607253
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -602.9601951808326,
+    425.115569497122
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -602.863955968452,
+    423.2088790994775
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -599.3003383541225,
+    423.4281716293501
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -599.3451182808997,
+    425.21828683246076
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -601.5497529213181,
+    426.59851259046616
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -600.1457476229956,
+    426.4536546303524
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -600.3365483684271,
+    427.9333050820218
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -601.4582416323078,
+    428.9941628711491
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -601.2003722811301,
+    423.422163883774
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -601.2124766590965,
+    425.24147384306775
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -601.5328977317924,
+    423.9665943450786
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -601.4312335002716,
+    424.388366064374
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -601.5484201854022,
+    424.83945797382114
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -598.656689623684,
+    421.8017947929534
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -602.8024704356667,
+    420.39199538252785
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison Building",
+   "tier": "landmark",
+   "coords": [
+    -600.376114315206,
+    423.43937969595936
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vercetti Estate",
+   "tier": "landmark",
+   "coords": [
+    -491.3421484469323,
+    540.3227470480756
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -385.4525310508778,
+    521.2646241163951
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -379.69075018667706,
+    518.7350625373355
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 8",
+   "tier": "landmark",
+   "coords": [
+    -426.50952482065895,
+    336.39687218716324
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 9",
+   "tier": "landmark",
+   "coords": [
+    -429.11646794633236,
+    338.7364383036676
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -396.1016875,
+    434.8685625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Guard Booth",
+   "tier": "landmark",
+   "coords": [
+    -398.0317073748638,
+    428.9350966254086
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -476.8995760188011,
+    423.6054267894641
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -456.7035284417348,
+    471.7028423458674
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Welcome to The Keys\" Sign",
+   "tier": "landmark",
+   "coords": [
+    -673.9344375000001,
+    445.63121875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fruitshots",
+   "tier": "landmark",
+   "coords": [
+    -497.8068087980808,
+    572.7197551302168
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Grain of Truth",
+   "tier": "landmark",
+   "coords": [
+    -522.60634375,
+    497.34878125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Diangelo",
+   "tier": "landmark",
+   "coords": [
+    -522.59853125,
+    495.59878125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Little Gems Jewellery",
+   "tier": "landmark",
+   "coords": [
+    -491.940375,
+    472.8726875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Casino",
+   "tier": "landmark",
+   "coords": [
+    -501.2414645918307,
+    433.6073394037729
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Berth",
+   "tier": "landmark",
+   "coords": [
+    -451.27334966707,
+    274.18784927811623
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Zeke's Gadgets",
+   "tier": "landmark",
+   "coords": [
+    -480.43303125,
+    475.945
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Video Forever",
+   "tier": "landmark",
+   "coords": [
+    -480.626875,
+    476.001875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Joyeria Empenos",
+   "tier": "landmark",
+   "coords": [
+    -480.2675,
+    475.9081875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City Hospital",
+   "tier": "landmark",
+   "coords": [
+    -483.6369094350264,
+    479.273868556612
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -559.6773378721457,
+    520.0530282170439
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Court",
+   "tier": "landmark",
+   "coords": [
+    -575.7151755623415,
+    504.02120294162773
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Court",
+   "tier": "landmark",
+   "coords": [
+    -573.3343416415777,
+    499.23728431579383
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Court",
+   "tier": "landmark",
+   "coords": [
+    -575.225658307605,
+    500.1050649037358
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -482.93044241577024,
+    382.8477386289636
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Interchange",
+   "tier": "landmark",
+   "coords": [
+    -493.3741000112508,
+    327.1150186595138
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fire Station",
+   "tier": "landmark",
+   "coords": [
+    -457.63378124999997,
+    487.5418125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -352.12342856396367,
+    397.11400401765354
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -519.4562872218833,
+    495.659702921793
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -299.63747955672955,
+    421.5020622659623
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "El Rincón Notorio",
+   "tier": "landmark",
+   "coords": [
+    -511.47146875,
+    475.53540625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Crude Islands",
+   "tier": "landmark",
+   "coords": [
+    -440.35961445720227,
+    249.8167774861846
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -419.4554275948457,
+    414.7276292115164
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -420.21840373357327,
+    417.5303987007198
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -347.5303975855704,
+    359.413375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -431.14678209135894,
+    338.68699863535926
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cove",
+   "tier": "landmark",
+   "coords": [
+    -589.4521092964435,
+    311.74192787458117
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Marina",
+   "tier": "landmark",
+   "coords": [
+    -657.7985181905792,
+    431.7404632042446
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tamarro",
+   "tier": "landmark",
+   "coords": [
+    -512.9460407071696,
+    579.5648843149287
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 17",
+   "tier": "landmark",
+   "coords": [
+    -440.7334375,
+    329.7728125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 21",
+   "tier": "landmark",
+   "coords": [
+    -444.5459375,
+    321.7415625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 19",
+   "tier": "landmark",
+   "coords": [
+    -434.7471724575837,
+    331.96856931189905
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 33B",
+   "tier": "landmark",
+   "coords": [
+    -463.3544452554794,
+    289.3519104825721
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cave",
+   "tier": "landmark",
+   "coords": [
+    -427.9003851401613,
+    370.463465160115
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Copyshop",
+   "tier": "landmark",
+   "coords": [
+    -522.63090625,
+    497.67290625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Captain's Cabins",
+   "tier": "landmark",
+   "coords": [
+    -676.8727725661919,
+    444.0773952982024
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -524.852953125,
+    485.447875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -690.3902694715206,
+    435.98074737353505
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Footbridge",
+   "tier": "landmark",
+   "coords": [
+    -325.63419531249997,
+    423.60557812499997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Thirsty Wolf",
+   "tier": "landmark",
+   "coords": [
+    -389.9880147456175,
+    448.7307059245149
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Footbridge",
+   "tier": "landmark",
+   "coords": [
+    -323.6281484375,
+    422.6238359375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Waterfall",
+   "tier": "landmark",
+   "coords": [
+    -324.57267187499997,
+    423.30346875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lighthouse",
+   "tier": "landmark",
+   "coords": [
+    -242.74263156707354,
+    387.3660848609053
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Nirvana Spa",
+   "tier": "landmark",
+   "coords": [
+    -463.82953125,
+    496.54196875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Royals",
+   "tier": "landmark",
+   "coords": [
+    -471.4549375,
+    560.6449375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"La Perle River\"",
+   "tier": "landmark",
+   "coords": [
+    -460.4108487861301,
+    476.46445499088077
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "River",
+   "tier": "landmark",
+   "coords": [
+    -505.7081663588908,
+    357.8198205420036
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Canal",
+   "tier": "landmark",
+   "coords": [
+    -527.0813246528028,
+    376.65907517060833
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -598.329017559585,
+    356.6730777118994
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -588.60009375,
+    371.49809375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -611.609784162051,
+    388.36929433241016
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -609.2547579972306,
+    404.5069629258978
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Port VC Tunnel",
+   "tier": "landmark",
+   "coords": [
+    -514.811375,
+    522.502375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -586.7469767472306,
+    412.92324708794894
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Peewees",
+   "tier": "landmark",
+   "coords": [
+    -495.69677979978457,
+    470.15504140150796
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -499.4948381161327,
+    485.1303859560817
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -513.8371285754336,
+    486.8079345224272
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Grandstands",
+   "tier": "landmark",
+   "coords": [
+    -450.729234375,
+    294.10846875000004
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Grandstands",
+   "tier": "landmark",
+   "coords": [
+    -453.1435047167512,
+    300.3831121872281
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Covered Grandstands",
+   "tier": "landmark",
+   "coords": [
+    -446.229015625,
+    300.456375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -353.38258837647703,
+    512.4854993449997
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shirley's House",
+   "tier": "landmark",
+   "coords": [
+    -684.703125,
+    440.43975
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -591.3705,
+    454.76025
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Farmacia",
+   "tier": "landmark",
+   "coords": [
+    -513.304125,
+    474.25696875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Little Cuba Souvenir Shop",
+   "tier": "landmark",
+   "coords": [
+    -511.46295846565005,
+    474.02779744681106
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Riverbank",
+   "tier": "landmark",
+   "coords": [
+    -515.866625,
+    474.6036875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -386.3475958691208,
+    517.3493850107362
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Billie Bob's",
+   "tier": "landmark",
+   "coords": [
+    -381.9834195976483,
+    516.0898504238241
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Flash FM",
+   "tier": "landmark",
+   "coords": [
+    -435.4099729882416,
+    506.24961832617583
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -443.254446292945,
+    511.2435625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -527.672390625,
+    477.433046875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lake",
+   "tier": "landmark",
+   "coords": [
+    -431.4159432065125,
+    463.6329762535105
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leonard County Sheriff's Office",
+   "tier": "landmark",
+   "coords": [
+    -432.68339255625006,
+    462.9992515786417
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -513.248125,
+    475.32135609091847
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -505.8456940681631,
+    463.2523947044893
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -444.9471875,
+    510.15709375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -449.4737564750672,
+    508.5696932392384
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -481.536203125,
+    494.90846875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -510.39509375,
+    533.88678125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -465.0534356644888,
+    566.6646524637251
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -584.0539621041098,
+    455.2198075155824
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -584.373875,
+    457.03340625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -567.8927287610945,
+    456.36045799160365
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -570.0661232751637,
+    454.69490263568275
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Waning Sands Police Department",
+   "tier": "landmark",
+   "coords": [
+    -383.59377274560364,
+    516.5061613150262
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -473.3441875,
+    491.8518125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -475.2515,
+    494.12159375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -489.9780625,
+    494.53565625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -460.883875,
+    497.66190625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -462.7510625,
+    497.04471875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -474.49325,
+    492.47440625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -482.9541875,
+    495.52909375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Interchange",
+   "tier": "landmark",
+   "coords": [
+    -428.444625,
+    512.755
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Park",
+   "tier": "landmark",
+   "coords": [
+    -510.8719375,
+    474.042765625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -571.7367761956461,
+    453.59852872282306
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -428.85138860790835,
+    547.2501017409988
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -559.063841383165,
+    472.83186438083214
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "VCIA Train Station",
+   "tier": "landmark",
+   "coords": [
+    -518.95759375,
+    464.920375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "VCIA Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -519.46540625,
+    464.14693750000004
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Mover Station",
+   "tier": "landmark",
+   "coords": [
+    -506.4954375,
+    438.03484375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Station",
+   "tier": "landmark",
+   "coords": [
+    -352.1897796575702,
+    281.4280476712149
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -579.84709375,
+    458.9004375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Court",
+   "tier": "landmark",
+   "coords": [
+    -461.8640279898237,
+    572.4445205152645
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -502.998875,
+    499.32775
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -451.9365,
+    508.88578125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Metro Station",
+   "tier": "landmark",
+   "coords": [
+    -480.8594375,
+    491.8901875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -534.9593872553511,
+    492.23074027673823
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Parking Lot",
+   "tier": "landmark",
+   "coords": [
+    -549.294296875,
+    483.070125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Construction Site",
+   "tier": "landmark",
+   "coords": [
+    -391.2547563353487,
+    334.6431008072693
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Roasters Coffee Cafe",
+   "tier": "landmark",
+   "coords": [
+    -527.29021875,
+    496.16228125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fenestra Plaza",
+   "tier": "landmark",
+   "coords": [
+    -539.46478125,
+    492.832125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gate Building",
+   "tier": "landmark",
+   "coords": [
+    -599.783546875,
+    428.751078125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mammacita's",
+   "tier": "landmark",
+   "coords": [
+    -526.692625,
+    495.89634375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Billie Bob's",
+   "tier": "landmark",
+   "coords": [
+    -424.20990976705997,
+    503.280059415354
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "August Hill Farm",
+   "tier": "landmark",
+   "coords": [
+    -432.989375,
+    500.3083125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Docks",
+   "tier": "landmark",
+   "coords": [
+    -489.17840625,
+    451.9075625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -538.89653125,
+    492.35028125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hamlet Police Department?",
+   "tier": "landmark",
+   "coords": [
+    -622.4303671875,
+    430.205109375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Peninsula",
+   "tier": "landmark",
+   "coords": [
+    -297.26984375,
+    334.872125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fleeca Bank",
+   "tier": "landmark",
+   "coords": [
+    -704.1212484836552,
+    427.80798913724846
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Brian's Marina Boat Racks",
+   "tier": "landmark",
+   "coords": [
+    -695.013747081601,
+    434.36827795934335
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Conch King",
+   "tier": "landmark",
+   "coords": [
+    -463.4001902900708,
+    482.52694862400966
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Arrow Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -674.9903861291641,
+    445.7494721382279
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -379.53321875,
+    502.54053125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Arrow Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -423.54440830289695,
+    486.6114911692598
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -517.985125,
+    307.3960646435021
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -545.5470078124999,
+    479.49553906250003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -568.077,
+    457.26009375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Xero Gas Station",
+   "tier": "landmark",
+   "coords": [
+    -380.8583364340402,
+    428.062687342829
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "\"Mount Redhill\"",
+   "tier": "landmark",
+   "coords": [
+    -291.34190624999997,
+    417.607625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bus Stop",
+   "tier": "landmark",
+   "coords": [
+    -468.97921240261365,
+    566.4184525960511
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -279.8804735112073,
+    404.2903223245672
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Train Bridge",
+   "tier": "landmark",
+   "coords": [
+    -444.771605779623,
+    483.65860651439937
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -469.6463125,
+    580.91465625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lifeguard Tower",
+   "tier": "landmark",
+   "coords": [
+    -465.02469603581653,
+    581.0052806192581
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Beach Volleyball",
+   "tier": "landmark",
+   "coords": [
+    -501.44313740288595,
+    575.2462135546996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 7B",
+   "tier": "landmark",
+   "coords": [
+    -454.6333789794422,
+    296.38214583517777
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 8B",
+   "tier": "landmark",
+   "coords": [
+    -449.6225816978859,
+    288.6848327551735
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 6C",
+   "tier": "landmark",
+   "coords": [
+    -456.6084375,
+    311.5876168758072
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Turn 7C",
+   "tier": "landmark",
+   "coords": [
+    -458.1801875,
+    312.022875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -671.020162570412,
+    416.47243433979395
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -637.3313125,
+    467.39246875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Old Mill Barber Shop",
+   "tier": "landmark",
+   "coords": [
+    -309.7528359375,
+    476.59978125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Trotman's Super Market",
+   "tier": "landmark",
+   "coords": [
+    -309.6598359375,
+    476.8605625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Jacob's Tavern Bar",
+   "tier": "landmark",
+   "coords": [
+    -309.457171875,
+    477.517671875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Reynold's Pharmacy",
+   "tier": "landmark",
+   "coords": [
+    -309.38646875,
+    477.823375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gator Plaza Sign",
+   "tier": "landmark",
+   "coords": [
+    -584.2419006871677,
+    452.45272408689493
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bridge",
+   "tier": "landmark",
+   "coords": [
+    -602.6043125,
+    498.96721875000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tennis Courts",
+   "tier": "landmark",
+   "coords": [
+    -528.0013917206818,
+    527.1394175948424
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ricardo's Tires",
+   "tier": "landmark",
+   "coords": [
+    -471.0126554459167,
+    480.7675292397919
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "RES TRADE PAINT",
+   "tier": "landmark",
+   "coords": [
+    -472.289890625,
+    482.607265625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Atoll Bar & Grill",
+   "tier": "landmark",
+   "coords": [
+    -475.95184375,
+    577.411625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wild Hog Point",
+   "tier": "landmark",
+   "coords": [
+    -409.6073678569416,
+    275.6608536350957
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Partridge Bay",
+   "tier": "landmark",
+   "coords": [
+    -232.95778124999998,
+    444.45771875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Okchiloha Bay",
+   "tier": "landmark",
+   "coords": [
+    -238.47119423769686,
+    370.7238825975394
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Millport Basin",
+   "tier": "landmark",
+   "coords": [
+    -298.2354233311022,
+    505.7690210274803
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "San Malo Bay",
+   "tier": "landmark",
+   "coords": [
+    -290.06965625,
+    331.29084375
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Permit Keys",
+   "tier": "landmark",
+   "coords": [
+    -710.7461739173926,
+    331.5756385826074
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tola Bay",
+   "tier": "landmark",
+   "coords": [
+    -551.2230760826073,
+    316.4252635826074
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Big Pine",
+   "tier": "landmark",
+   "coords": [
+    -565.1186050743968,
+    345.3487835082106
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Nehrling River",
+   "tier": "landmark",
+   "coords": [
+    -525.8193872210122,
+    318.44533468381394
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bobcat Bight",
+   "tier": "landmark",
+   "coords": [
+    -553.299744160589,
+    285.76236390402335
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Capri Sound",
+   "tier": "landmark",
+   "coords": [
+    -481.8067250929959,
+    281.7783174814008
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Borrachero Sound",
+   "tier": "landmark",
+   "coords": [
+    -433.3032139237753,
+    265.6431658695965
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wetman Bay",
+   "tier": "landmark",
+   "coords": [
+    -661.0762443568957,
+    375.08616326087497
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gullet Marsh",
+   "tier": "landmark",
+   "coords": [
+    -624.5225937499999,
+    397.02946875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Pelican River",
+   "tier": "landmark",
+   "coords": [
+    -608.41234375,
+    395.86287500000003
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gambit Bay",
+   "tier": "landmark",
+   "coords": [
+    -675.65884375,
+    425.1470625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shoeless Keys",
+   "tier": "landmark",
+   "coords": [
+    -663.8516997478208,
+    436.56999637518163
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Capri Country Club",
+   "tier": "landmark",
+   "coords": [
+    -507.27774805468755,
+    286.18498431249947
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leonida Credit Union",
+   "tier": "landmark",
+   "coords": [
+    -497.5810703125,
+    296.91428125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leonida Credit Union Car Park",
+   "tier": "landmark",
+   "coords": [
+    -497.908375,
+    298.226
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Temner Technologies",
+   "tier": "landmark",
+   "coords": [
+    -496.3100961638269,
+    305.1456160975175
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gellhorn Drive-In Theatre",
+   "tier": "landmark",
+   "coords": [
+    -387.73004617253196,
+    306.92265399634493
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Capri Police Station",
+   "tier": "landmark",
+   "coords": [
+    -505.9818479467965,
+    291.9412086136243
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Effete",
+   "tier": "landmark",
+   "coords": [
+    -444.02988838136366,
+    499.9513186194935
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Cottonmouth Lake",
+   "tier": "landmark",
+   "coords": [
+    -661.62475,
+    403.24321875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sharktooth Island",
+   "tier": "landmark",
+   "coords": [
+    -346.69503125,
+    516.871
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Peregrine Bay",
+   "tier": "landmark",
+   "coords": [
+    -639.93415625,
+    474.50703125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leith River",
+   "tier": "landmark",
+   "coords": [
+    -382.61021814434173,
+    520.0386407259431
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Moreau River",
+   "tier": "landmark",
+   "coords": [
+    -254.613875,
+    430.14928125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Monument of Leonidan Supremacy",
+   "tier": "landmark",
+   "coords": [
+    -338.80490625,
+    328.84703125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sculpture",
+   "tier": "landmark",
+   "coords": [
+    -725.73221875,
+    405.7511875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wild Hog Airfield ATC Tower",
+   "tier": "landmark",
+   "coords": [
+    -405.3605,
+    285.80471875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Williams Guest House",
+   "tier": "landmark",
+   "coords": [
+    -297.46718085241866,
+    336.8770318072309
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Adams-Olsen Medical Center",
+   "tier": "landmark",
+   "coords": [
+    -371.42596875000004,
+    419.55896875
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "King Gator Adventure Golf",
+   "tier": "landmark",
+   "coords": [
+    -489.42896875,
+    392.30740625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Au Courant Unisex Hair Salon",
+   "tier": "landmark",
+   "coords": [
+    -566.4394687500001,
+    474.69028125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ambrosia Fire District Mason Porter Station",
+   "tier": "landmark",
+   "coords": [
+    -391.29478010375635,
+    440.98225
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Wild Hog Point Radar Base",
+   "tier": "landmark",
+   "coords": [
+    -410.70949583442643,
+    277.17150567272233
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ranchers",
+   "tier": "landmark",
+   "coords": [
+    -308.2041898557095,
+    466.2166851442905
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Emerald Springs Country Store",
+   "tier": "landmark",
+   "coords": [
+    -445.63528125,
+    387.078625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Red Apple Orchard",
+   "tier": "landmark",
+   "coords": [
+    -347.34459375,
+    329.77937499999996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Farmer Scrumpy's Petting Zoo",
+   "tier": "landmark",
+   "coords": [
+    -346.6688125,
+    330.74421874999996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mount Kalaga National Park Visitor Center",
+   "tier": "landmark",
+   "coords": [
+    -298.10699323728795,
+    410.951076434322
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Flathead Cabin",
+   "tier": "landmark",
+   "coords": [
+    -319.3950625,
+    425.34915624999996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "High Point Cabin",
+   "tier": "landmark",
+   "coords": [
+    -320.43350480025526,
+    425.24584014980854
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Trailhead Cabin",
+   "tier": "landmark",
+   "coords": [
+    -321.2870853495533,
+    423.6745637000638
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Boulder Cabin",
+   "tier": "landmark",
+   "coords": [
+    -319.61251497591286,
+    423.9572818500319
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Side Hill Cabin",
+   "tier": "landmark",
+   "coords": [
+    -318.84049519974474,
+    424.30525
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Public Restrooms",
+   "tier": "landmark",
+   "coords": [
+    -317.2148701997447,
+    424.49553365012764
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Containers",
+   "tier": "landmark",
+   "coords": [
+    -337.09736360253964,
+    451.60214276788605
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "One Eyed Willie",
+   "tier": "landmark",
+   "coords": [
+    -335.4416155735937,
+    454.4155436471873
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Free State of Henry Perculay",
+   "tier": "landmark",
+   "coords": [
+    -325.68176094581827,
+    436.6699523312726
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tequesta Community Outreach Project",
+   "tier": "landmark",
+   "coords": [
+    -559.414485548654,
+    483.4423315497636
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Fort Acid",
+   "tier": "landmark",
+   "coords": [
+    -485.89434375,
+    300.6930625
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Transformer Station",
+   "tier": "landmark",
+   "coords": [
+    -487.671375,
+    308.89728125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "The Steel Drop",
+   "tier": "landmark",
+   "coords": [
+    -262.196875,
+    453.38425
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Buckskin Swamp",
+   "tier": "landmark",
+   "coords": [
+    -467.24613375934763,
+    391.83263687471026
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Washington Beach",
+   "tier": "neighborhood",
+   "coords": [
+    -443.3614973798346,
+    565.0198875520779
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Ocean Beach",
+   "tier": "neighborhood",
+   "coords": [
+    -489.98867147534537,
+    566.0008570240635
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shore Dr",
+   "tier": "neighborhood",
+   "coords": [
+    -498.03634246736397,
+    572.7069443124028
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Thompson Ave",
+   "tier": "neighborhood",
+   "coords": [
+    -478.0238355407883,
+    566.5690028966283
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Dalton Island",
+   "tier": "neighborhood",
+   "coords": [
+    -554.3368914030322,
+    566.3007246199574
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Catalan Key",
+   "tier": "neighborhood",
+   "coords": [
+    -577.9048825159623,
+    505.95152423834617
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tequesta Retreat",
+   "tier": "neighborhood",
+   "coords": [
+    -545.631474435109,
+    505.48982035226373
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Port Vice City",
+   "tier": "neighborhood",
+   "coords": [
+    -528.3088370267966,
+    534.5501026980797
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Rialto Islands",
+   "tier": "neighborhood",
+   "coords": [
+    -472.8516534950516,
+    527.4761951745638
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice-Dale County",
+   "tier": "neighborhood",
+   "coords": [
+    -491.2748422909488,
+    516.9540982195115
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leonard County",
+   "tier": "neighborhood",
+   "coords": [
+    -393.96619502455826,
+    484.4907084553447
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Belville",
+   "tier": "neighborhood",
+   "coords": [
+    -421.9445731752436,
+    470.0779994673678
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice Decor District",
+   "tier": "neighborhood",
+   "coords": [
+    -444.2669127857877,
+    505.47549713204336
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "La Perle",
+   "tier": "neighborhood",
+   "coords": [
+    -466.62137810810844,
+    482.0584363919405
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Crosstown",
+   "tier": "neighborhood",
+   "coords": [
+    -476.58620887663113,
+    491.6872354156314
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Stockyard",
+   "tier": "neighborhood",
+   "coords": [
+    -455.82125899538045,
+    501.326548526832
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bayside",
+   "tier": "neighborhood",
+   "coords": [
+    -478.6196443897419,
+    501.25151137150203
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Catalan Blvd",
+   "tier": "neighborhood",
+   "coords": [
+    -497.1472257756734,
+    497.9892550897356
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Downtown",
+   "tier": "neighborhood",
+   "coords": [
+    -515.794078882405,
+    490.6811416836616
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Rockridge",
+   "tier": "neighborhood",
+   "coords": [
+    -485.303966613636,
+    472.1679900271612
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Balsero",
+   "tier": "neighborhood",
+   "coords": [
+    -493.4919834593617,
+    452.88104963316795
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Little Cuba",
+   "tier": "neighborhood",
+   "coords": [
+    -509.6490911857226,
+    474.5036580635409
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Shoreline",
+   "tier": "neighborhood",
+   "coords": [
+    -510.06850977920817,
+    505.46910650158196
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Salton",
+   "tier": "neighborhood",
+   "coords": [
+    -526.7400414602033,
+    465.39975043278105
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Vice City International Airport",
+   "tier": "neighborhood",
+   "coords": [
+    -534.2899854936288,
+    440.2391707559945
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Westbrook Dr",
+   "tier": "neighborhood",
+   "coords": [
+    -502.01012897406247,
+    463.90695423833614
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Tequesta",
+   "tier": "neighborhood",
+   "coords": [
+    -547.0229295238119,
+    484.7041574624661
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "SW 7th Ave",
+   "tier": "neighborhood",
+   "coords": [
+    -547.6542852847892,
+    467.5512592349488
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Peacock Bay",
+   "tier": "neighborhood",
+   "coords": [
+    -571.0236436896341,
+    475.5392388931311
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "SW 9th Ave",
+   "tier": "neighborhood",
+   "coords": [
+    -573.3438035292035,
+    469.4034032706611
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Calderone Ave",
+   "tier": "neighborhood",
+   "coords": [
+    -571.063211730444,
+    454.5767308995502
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mariana County",
+   "tier": "neighborhood",
+   "coords": [
+    -639.5515003504997,
+    375.1457129628231
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Peregrine Bay",
+   "tier": "neighborhood",
+   "coords": [
+    -617.1973623639118,
+    460.1643573489396
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Bluegrass",
+   "tier": "neighborhood",
+   "coords": [
+    -587.1805653682013,
+    433.2467780452805
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Route 1",
+   "tier": "neighborhood",
+   "coords": [
+    -704.785350018945,
+    427.7730765930605
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Maroon Key",
+   "tier": "neighborhood",
+   "coords": [
+    -726.2864250081827,
+    375.76377900295967
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Kelly County",
+   "tier": "neighborhood",
+   "coords": [
+    -416.1093083498274,
+    344.67364460616653
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Goose Key",
+   "tier": "neighborhood",
+   "coords": [
+    -711.3634134690678,
+    305.7388245907193
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Starfish Island",
+   "tier": "neighborhood",
+   "coords": [
+    -497.31877084349287,
+    536.2926250375242
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Allied Crystal",
+   "tier": "neighborhood",
+   "coords": [
+    -398.7431902754449,
+    421.82394536258226
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Leaf Links",
+   "tier": "neighborhood",
+   "coords": [
+    -436.3222744737816,
+    526.2793836866796
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Lummox County",
+   "tier": "neighborhood",
+   "coords": [
+    -290.8338285784456,
+    408.900583013085
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Abismo Key",
+   "tier": "neighborhood",
+   "coords": [
+    -740.4412917094934,
+    356.18179732802776
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Mount Kalaga National Park",
+   "tier": "neighborhood",
+   "coords": [
+    -274.8733125,
+    403.72828125
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Draper Island",
+   "tier": "neighborhood",
+   "coords": [
+    -358.6921242037851,
+    287.13352383560743
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Southwind",
+   "tier": "neighborhood",
+   "coords": [
+    -712.4224089521998,
+    314.2955073793776
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Prison",
+   "tier": "neighborhood",
+   "coords": [
+    -601.0429702816416,
+    426.5056491872753
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Belpoint",
+   "tier": "neighborhood",
+   "coords": [
+    -527.59656640625,
+    264.24883593749996
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Emerald Springs",
+   "tier": "neighborhood",
+   "coords": [
+    -442.18920907132485,
+    383.182760536279
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "SW 4th St",
+   "tier": "neighborhood",
+   "coords": [
+    -481.23516368913425,
+    534.3579227624342
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Southside",
+   "tier": "neighborhood",
+   "coords": [
+    -577.794491638087,
+    455.654256052568
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Gellhorn International Raceway",
+   "tier": "neighborhood",
+   "coords": [
+    -450.4942435036426,
+    309.7429156034177
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Sundown",
+   "tier": "neighborhood",
+   "coords": [
+    -377.28582020709774,
+    497.4371168463027
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "El Joven Blvd",
+   "tier": "neighborhood",
+   "coords": [
+    -577.3709706009112,
+    460.8623501083732
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "SW 3rd Ave",
+   "tier": "neighborhood",
+   "coords": [
+    -577.2481169729524,
+    454.5268165322826
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Buckskin",
+   "tier": "neighborhood",
+   "coords": [
+    -484.6728100170767,
+    384.4628207521945
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Zephyr Islands",
+   "tier": "neighborhood",
+   "coords": [
+    -331.82371294029844,
+    275.3857047454821
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Frampton Islands",
+   "tier": "neighborhood",
+   "coords": [
+    -253.84191701418683,
+    463.2108569266968
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Millport",
+   "tier": "neighborhood",
+   "coords": [
+    -308.2906813178676,
+    479.3242866865893
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Grassrivers",
+   "tier": "neighborhood",
+   "coords": [
+    -654.0132916640471,
+    416.1385846410894
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Hyde Island",
+   "tier": "neighborhood",
+   "coords": [
+    -236.04467081207213,
+    425.8806490904186
+   ],
+   "source": "gtadb"
+  },
+  {
+   "name": "Grayson",
+   "tier": "neighborhood",
+   "coords": [
+    -299.73179902735274,
+    335.46228639374135
+   ],
+   "source": "gtadb"
+  }
+ ]
+}

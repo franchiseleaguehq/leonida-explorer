@@ -3,7 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import './styles.css';
-import { MAP_CONFIG } from './config';
+import { MAP_CONFIG, LABELS_CONFIG } from './config';
 import { CATEGORIES, CATEGORY_MAP } from './categories';
 import { VERIFICATION_LABELS, type GameLocation, type UserState } from './types';
 import { loadState, saveState, exportState, importState } from './store';
@@ -56,7 +56,87 @@ const nightLayer = L.tileLayer(MAP_CONFIG.tileUrlNight, {
   attribution: MAP_CONFIG.attribution,
 });
 dayLayer.addTo(map);
-L.control.layers({ 'Day map': dayLayer, 'Night map': nightLayer }, undefined, { position: 'bottomright' }).addTo(map);
+
+/* ---- labels layer (verbatim names from licensed data; see config) ---- */
+map.createPane('labels');
+const labelsPane = map.getPane('labels');
+if (labelsPane) {
+  labelsPane.style.zIndex = '450'; // above tiles, below location pins
+  labelsPane.style.pointerEvents = 'none';
+}
+type LabelTier = 'district' | 'highway' | 'neighborhood' | 'landmark';
+interface MapLabel {
+  name: string;
+  tier: LabelTier;
+  coords: [number, number];
+  source: string;
+}
+let labelData: MapLabel[] = [];
+const districtLabels = L.layerGroup();
+const highwayLabels = L.layerGroup();
+const neighborhoodLabels = L.layerGroup();
+const landmarkLabels = L.layerGroup();
+const labelsLayer = L.layerGroup([districtLabels, highwayLabels], {
+  attribution: LABELS_CONFIG.attribution,
+});
+labelsLayer.addTo(map); // ON by default
+
+function labelMarker(rec: MapLabel): L.Marker {
+  return L.marker(rec.coords, {
+    pane: 'labels',
+    interactive: false,
+    keyboard: false,
+    icon: L.divIcon({
+      className: 'label-wrap',
+      html: `<div class="map-label lbl-${rec.tier}">${escapeHtml(rec.name)}</div>`,
+    }),
+  });
+}
+
+function renderLandmarkLabels(): void {
+  landmarkLabels.clearLayers();
+  const b = map.getBounds().pad(0.1);
+  for (const rec of labelData) {
+    if (rec.tier === 'landmark' && b.contains(rec.coords)) landmarkLabels.addLayer(labelMarker(rec));
+  }
+}
+
+function updateLabelTiers(): void {
+  const z = map.getZoom();
+  if (z >= LABELS_CONFIG.neighborhoodMinZoom) {
+    if (!labelsLayer.hasLayer(neighborhoodLabels)) labelsLayer.addLayer(neighborhoodLabels);
+  } else {
+    labelsLayer.removeLayer(neighborhoodLabels);
+  }
+  if (z >= LABELS_CONFIG.landmarkMinZoom) {
+    if (!labelsLayer.hasLayer(landmarkLabels)) labelsLayer.addLayer(landmarkLabels);
+    renderLandmarkLabels();
+  } else {
+    labelsLayer.removeLayer(landmarkLabels);
+  }
+}
+map.on('zoomend moveend', updateLabelTiers);
+
+async function loadLabels(): Promise<void> {
+  try {
+    const res = await fetch(LABELS_CONFIG.dataUrl);
+    if (!res.ok) throw new Error(String(res.status));
+    const data = (await res.json()) as { labels: MapLabel[] };
+    labelData = Array.isArray(data.labels) ? data.labels : [];
+  } catch {
+    labelData = [];
+  }
+  for (const rec of labelData) {
+    if (rec.tier === 'district') districtLabels.addLayer(labelMarker(rec));
+    else if (rec.tier === 'highway') highwayLabels.addLayer(labelMarker(rec));
+    else if (rec.tier === 'neighborhood') neighborhoodLabels.addLayer(labelMarker(rec));
+  }
+  updateLabelTiers();
+}
+
+L.control
+  .layers({ 'Day map': dayLayer, 'Night map': nightLayer }, { Labels: labelsLayer }, { position: 'bottomright' })
+  .addTo(map);
 map.fitBounds(bounds);
 // Exposed for debugging/support (harmless; standard practice for map apps).
 (window as unknown as { __leMap: L.Map }).__leMap = map;
@@ -498,7 +578,8 @@ function escapeHtml(s: string): string {
 }
 
 /* ================= boot ================= */
-$('#attribution-line').textContent = MAP_CONFIG.attribution || '';
+$('#attribution-line').textContent = `${MAP_CONFIG.attribution} · ${LABELS_CONFIG.attribution}`;
+void loadLabels();
 void loadLocations().then(() => {
   const hash = new URLSearchParams(location.hash.replace(/^#/, ''));
   const id = hash.get('loc');
