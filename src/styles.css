@@ -187,11 +187,18 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 .lbl-landmark { color: var(--text-dim); font-size: 10.5px; font-weight: 500; }
-.marker-cluster { background: rgba(244,239,226,0.25); border-radius: 50%; }
-.marker-cluster div {
-  background: rgba(13,21,38,0.95); color: #ffffff; border: 2px solid #f4efe2;
-  font-weight: 700; border-radius: 50%;
+.le-cluster { background: transparent; border: none; }
+.le-cluster div {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: rgba(13, 21, 38, 0.95); color: #ffffff;
+  border: 2px solid #f4efe2;
+  display: grid; place-items: center;
+  font-weight: 700; font-size: 13px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
 }
+/* On the dark base, dim the illustrated tiles so their painted roads
+   recede and the vector road network reads as the map's roads. */
+#map.dark-base .leaflet-tile-pane { filter: brightness(0.72) saturate(0.78); }
 
 /* ---------- detail sheet ---------- */
 #detail-sheet {

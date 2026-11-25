@@ -56,6 +56,14 @@ const nightLayer = L.tileLayer(MAP_CONFIG.tileUrlNight, {
   attribution: MAP_CONFIG.attribution,
 });
 nightLayer.addTo(map); // the dark base is the default — it is the in-game look
+$('#map').classList.add('dark-base');
+// The illustrated tiles carry their own painted roads, slightly drifted
+// from the source vector centrelines (the art pass moved them). Dimming
+// the dark base lets the crisp vector network read as THE roads, the
+// way the in-game map presents them.
+map.on('baselayerchange', (e) => {
+  $('#map').classList.toggle('dark-base', e.layer === nightLayer);
+});
 
 /* ---- labels layer (verbatim names from licensed data; see config) ---- */
 map.createPane('labels');
@@ -202,8 +210,8 @@ function applyRoadBucket(): void {
   const coreW: Record<RoadKind, number> = [
     { highway: 1.6, main: 1.2, street: 1, minor: 1 },
     { highway: 2.6, main: 2, street: 1.3, minor: 1 },
-    { highway: 4.5, main: 3.8, street: 2.8, minor: 1.6 },
-    { highway: 7, main: 6, street: 4.5, minor: 3 },
+    { highway: 6, main: 5, street: 3.5, minor: 2 },
+    { highway: 9, main: 7.5, street: 5.5, minor: 3.5 },
   ][bucket];
   (Object.keys(roadCore) as RoadKind[]).forEach((kind) => {
     for (const line of roadCore[kind]) line.setStyle({ weight: coreW[kind] });
@@ -356,9 +364,16 @@ map.fitBounds(bounds);
 (window as unknown as { __leMap: L.Map }).__leMap = map;
 
 const cluster = L.markerClusterGroup({
-  maxClusterRadius: 55,
+  maxClusterRadius: 45,
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: false,
+  disableClusteringAtZoom: 4,
+  iconCreateFunction: (c) =>
+    L.divIcon({
+      className: 'le-cluster',
+      html: `<div>${c.getChildCount()}</div>`,
+      iconSize: [36, 36],
+    }),
 });
 map.addLayer(cluster);
 
@@ -644,7 +659,7 @@ originMarker.on('dragend', () => {
 /* ================= map events ================= */
 map.on('mousemove', (e: L.LeafletMouseEvent) => {
   const { gx, gy } = toGame([e.latlng.lat, e.latlng.lng]);
-  $('#coord-readout').textContent = `X ${gx} · Y ${gy} · zoom ${map.getZoom().toFixed(1)}×`;
+  $('#coord-readout').textContent = `X ${gx} · Y ${gy} · zoom ${map.getZoom().toFixed(1)}`;
 });
 map.on('click', (e: L.LeafletMouseEvent) => {
   if (pendingTap === 'marker') {
