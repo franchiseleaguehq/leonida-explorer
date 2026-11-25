@@ -216,3 +216,21 @@ source): Bonanza (town); Featherstone Islands; Breakwater Quarry,
 Frogwater, Pelican Valley (areas). A few poster micro-labels on the keys
 and the Vice Beach island chain were not legible enough in the photos to
 transcribe reliably and were not classified.
+
+## 7. World geometry overlays (added 2026-11-25 — "feel like the game map")
+
+Same licensed source as the basemap (Open GTA 6 Map, fbritoferreira, CC BY 4.0),
+imported by `scripts/import-roads.mjs` and `scripts/import-world.mjs`:
+
+- `public/data/roads.json` — 9,026 road polylines from `data/roads.json`
+  (kinds: highway 2,230 · main 281 · street 1,920 · minor 4,595). Geometry
+  only; the source carries NO road names (see §6 verdict — unchanged).
+- `public/data/surface.json` — surface polygons by layer: building 2,650 ·
+  park 465 · sand 316 · urban 516 · shallow 1,766 · paved 4 rings.
+- `public/data/zones.json` — 10 district polygons + 1,549 landmass rings.
+
+Drawn as canvas vector overlays styled after the in-game map (dark base
+default, pale road bands that widen with zoom, blue building blocks from
+zoom 2, faint district tints, glowing coastline). The base raster tiles
+still end at native zoom 5 and magnify beyond it; the vector overlays are
+what stay crisp. No Rockstar assets are used or hosted.

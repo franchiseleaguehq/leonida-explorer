@@ -3,7 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import './styles.css';
-import { MAP_CONFIG, LABELS_CONFIG } from './config';
+import { MAP_CONFIG, LABELS_CONFIG, WORLD_CONFIG } from './config';
 import { CATEGORIES, CATEGORY_MAP } from './categories';
 import { VERIFICATION_LABELS, type GameLocation, type UserState } from './types';
 import { loadState, saveState, exportState, importState } from './store';
@@ -13,7 +13,7 @@ let state: UserState = loadState();
 let locations: GameLocation[] = [];
 let selected: GameLocation | null = null;
 let origin: L.LatLng | null = null;
-let waypointLine: L.Polyline | null = null;
+let waypointLine: L.LayerGroup | null = null;
 let pendingTap: 'marker' | 'origin' | null = null;
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
@@ -55,7 +55,7 @@ const nightLayer = L.tileLayer(MAP_CONFIG.tileUrlNight, {
   maxZoom: MAP_CONFIG.maxZoom,
   attribution: MAP_CONFIG.attribution,
 });
-dayLayer.addTo(map);
+nightLayer.addTo(map); // the dark base is the default — it is the in-game look
 
 /* ---- labels layer (verbatim names from licensed data; see config) ---- */
 map.createPane('labels');
@@ -134,8 +134,222 @@ async function loadLabels(): Promise<void> {
   updateLabelTiers();
 }
 
+/* ---- world geometry (roads / buildings / zones) ----
+   Vector overlays in the style of the in-game map, drawn from the same
+   licensed source as the base tiles (see WORLD_CONFIG). Canvas-rendered
+   so they stay crisp at deep zoom where the raster tiles only magnify. */
+map.createPane('world');
+const worldPane = map.getPane('world');
+if (worldPane) {
+  worldPane.style.zIndex = '420'; // above tiles, below roads
+  worldPane.style.pointerEvents = 'none';
+}
+map.createPane('roads');
+const roadsPane = map.getPane('roads');
+if (roadsPane) {
+  roadsPane.style.zIndex = '435'; // above world, below labels (450)
+  roadsPane.style.pointerEvents = 'none';
+}
+const worldRenderer = L.canvas({ pane: 'world' });
+const roadsRenderer = L.canvas({ pane: 'roads' });
+
+const worldBase = L.layerGroup(); // coastline glow, district tints, parks, sand, urban, shallow
+const worldDeep = L.layerGroup(); // building footprints + paved (deep zoom only)
+const worldGroup = L.layerGroup([worldBase], { attribution: WORLD_CONFIG.attribution });
+worldGroup.addTo(map); // ON by default
+const roadsGroup = L.layerGroup([], { attribution: WORLD_CONFIG.attribution });
+roadsGroup.addTo(map); // ON by default
+
+type RoadKind = 'highway' | 'main' | 'street' | 'minor';
+const ROAD_CORE: Record<RoadKind, { color: string; opacity: number }> = {
+  highway: { color: '#f2f6fc', opacity: 0.98 },
+  main: { color: '#dde8f5', opacity: 0.95 },
+  street: { color: '#c6d5e8', opacity: 0.85 },
+  minor: { color: '#a5b9d4', opacity: 0.7 },
+};
+const roadCore: Record<RoadKind, L.Polyline[]> = { highway: [], main: [], street: [], minor: [] };
+const roadCasing: L.Polyline[] = []; // dark edge under major roads
+const roadKindGroups: Record<RoadKind, L.LayerGroup> = {
+  highway: L.layerGroup(),
+  main: L.layerGroup(),
+  street: L.layerGroup(),
+  minor: L.layerGroup(),
+};
+for (const g of Object.values(roadKindGroups)) roadsGroup.addLayer(g);
+const casingGroup = L.layerGroup();
+roadsGroup.addLayer(casingGroup);
+
+function flatToLatLngs(flat: number[]): L.LatLng[] {
+  const pts: L.LatLng[] = [];
+  for (let i = 0; i + 1 < flat.length; i += 2) pts.push(L.latLng(flat[i], flat[i + 1]));
+  return pts;
+}
+
+/** Zoom buckets for road band widths — the deeper the zoom, the wider
+    the pale street bands, like the in-game map. -1 = not applied yet. */
+let roadBucket = -1;
+function applyRoadBucket(): void {
+  const z = map.getZoom();
+  const bucket = z < 0.5 ? 0 : z < 2 ? 1 : z < 4 ? 2 : 3;
+  const showStreet = bucket >= 1;
+  const showMinor = bucket >= 2;
+  if (showStreet && !roadsGroup.hasLayer(roadKindGroups.street)) roadsGroup.addLayer(roadKindGroups.street);
+  if (!showStreet && roadsGroup.hasLayer(roadKindGroups.street)) roadsGroup.removeLayer(roadKindGroups.street);
+  if (showMinor && !roadsGroup.hasLayer(roadKindGroups.minor)) roadsGroup.addLayer(roadKindGroups.minor);
+  if (!showMinor && roadsGroup.hasLayer(roadKindGroups.minor)) roadsGroup.removeLayer(roadKindGroups.minor);
+  if (bucket === roadBucket) return;
+  roadBucket = bucket;
+  const coreW: Record<RoadKind, number> = [
+    { highway: 1.6, main: 1.2, street: 1, minor: 1 },
+    { highway: 2.6, main: 2, street: 1.3, minor: 1 },
+    { highway: 4.5, main: 3.8, street: 2.8, minor: 1.6 },
+    { highway: 7, main: 6, street: 4.5, minor: 3 },
+  ][bucket];
+  (Object.keys(roadCore) as RoadKind[]).forEach((kind) => {
+    for (const line of roadCore[kind]) line.setStyle({ weight: coreW[kind] });
+  });
+  for (const line of roadCasing) {
+    const kind = (line.options as { roadKind?: RoadKind }).roadKind ?? 'main';
+    line.setStyle({ weight: coreW[kind] + 2.2 });
+  }
+}
+
+function updateWorldTiers(): void {
+  const showDeep = map.getZoom() >= WORLD_CONFIG.buildingsMinZoom;
+  if (showDeep && !worldGroup.hasLayer(worldDeep)) worldGroup.addLayer(worldDeep);
+  if (!showDeep && worldGroup.hasLayer(worldDeep)) worldGroup.removeLayer(worldDeep);
+  applyRoadBucket();
+}
+map.on('zoomend', updateWorldTiers);
+
+const DISTRICT_TINTS = ['#38d9c5', '#f05ca9', '#ff9b54', '#7be495', '#c05ce0', '#4a90d9', '#e8c832', '#d94f4f', '#4fd9c0', '#5c7bf0'];
+
+async function loadWorld(): Promise<void> {
+  try {
+    const [roadsRes, surfaceRes, zonesRes] = await Promise.all([
+      fetch(WORLD_CONFIG.roadsUrl),
+      fetch(WORLD_CONFIG.surfaceUrl),
+      fetch(WORLD_CONFIG.zonesUrl),
+    ]);
+    if (roadsRes.ok) {
+      const data = (await roadsRes.json()) as { kinds: Record<RoadKind, number[][]> };
+      (Object.keys(roadCore) as RoadKind[]).forEach((kind) => {
+        for (const flat of data.kinds[kind] ?? []) {
+          const pts = flatToLatLngs(flat);
+          if (pts.length < 2) continue;
+          if (kind === 'highway' || kind === 'main') {
+            const casing = L.polyline(pts, {
+              pane: 'roads',
+              renderer: roadsRenderer,
+              color: '#0a1220',
+              opacity: 0.5,
+              weight: 4,
+              interactive: false,
+            });
+            (casing.options as { roadKind?: RoadKind }).roadKind = kind;
+            roadCasing.push(casing);
+            casingGroup.addLayer(casing);
+          }
+          const core = L.polyline(pts, {
+            pane: 'roads',
+            renderer: roadsRenderer,
+            color: ROAD_CORE[kind].color,
+            opacity: ROAD_CORE[kind].opacity,
+            weight: 2,
+            interactive: false,
+          });
+          roadCore[kind].push(core);
+          roadKindGroups[kind].addLayer(core);
+        }
+      });
+    }
+    if (zonesRes.ok) {
+      const zones = (await zonesRes.json()) as {
+        districts: { name: string; rings: number[][] }[];
+        land: number[][];
+      };
+      zones.districts.forEach((d, i) => {
+        const tint = DISTRICT_TINTS[i % DISTRICT_TINTS.length];
+        for (const ring of d.rings) {
+          worldBase.addLayer(
+            L.polygon(flatToLatLngs(ring), {
+              pane: 'world',
+              renderer: worldRenderer,
+              color: tint,
+              opacity: 0.16,
+              weight: 1,
+              fillColor: tint,
+              fillOpacity: 0.05,
+              interactive: false,
+            }),
+          );
+        }
+      });
+      // coastline glow: a wide faint pass under a bright thin pass
+      for (const ring of zones.land) {
+        worldBase.addLayer(
+          L.polygon(flatToLatLngs(ring), {
+            pane: 'world',
+            renderer: worldRenderer,
+            color: '#cfe2ff',
+            opacity: 0.1,
+            weight: 6,
+            fill: false,
+            interactive: false,
+          }),
+        );
+      }
+      for (const ring of zones.land) {
+        worldBase.addLayer(
+          L.polygon(flatToLatLngs(ring), {
+            pane: 'world',
+            renderer: worldRenderer,
+            color: '#e8f1ff',
+            opacity: 0.5,
+            weight: 1.6,
+            fill: false,
+            interactive: false,
+          }),
+        );
+      }
+    }
+    if (surfaceRes.ok) {
+      const surface = (await surfaceRes.json()) as { layers: Record<string, number[][]> };
+      const SURFACE_STYLE: Record<string, { base: boolean; style: L.PolylineOptions }> = {
+        shallow: { base: true, style: { color: '#33507e', opacity: 0, weight: 0, fillColor: '#33507e', fillOpacity: 0.25 } },
+        urban: { base: true, style: { color: '#6f87b8', opacity: 0, weight: 0, fillColor: '#6f87b8', fillOpacity: 0.1 } },
+        park: { base: true, style: { color: '#1e9e62', opacity: 0, weight: 0, fillColor: '#1e9e62', fillOpacity: 0.8 } },
+        sand: { base: true, style: { color: '#8a826f', opacity: 0, weight: 0, fillColor: '#8a826f', fillOpacity: 0.85 } },
+        paved: { base: false, style: { color: '#7d8aa0', opacity: 0, weight: 0, fillColor: '#7d8aa0', fillOpacity: 0.5 } },
+        building: {
+          base: false,
+          style: { color: '#2e4d8f', opacity: 0.9, weight: 1, fillColor: '#4a72c2', fillOpacity: 0.92 },
+        },
+      };
+      for (const [layer, rings] of Object.entries(surface.layers)) {
+        const cfg = SURFACE_STYLE[layer];
+        if (!cfg) continue;
+        const target = cfg.base ? worldBase : worldDeep;
+        for (const ring of rings) {
+          target.addLayer(
+            L.polygon(flatToLatLngs(ring), { pane: 'world', renderer: worldRenderer, interactive: false, ...cfg.style }),
+          );
+        }
+      }
+    }
+  } catch {
+    /* overlays are an enhancement — the base map still works without them */
+  }
+  roadBucket = -1;
+  updateWorldTiers();
+}
+
 L.control
-  .layers({ 'Day map': dayLayer, 'Night map': nightLayer }, { Labels: labelsLayer }, { position: 'bottomright' })
+  .layers(
+    { 'Dark map': nightLayer, 'Day map': dayLayer },
+    { Labels: labelsLayer, Roads: roadsGroup, 'Buildings & zones': worldGroup },
+    { position: 'bottomright' },
+  )
   .addTo(map);
 map.fitBounds(bounds);
 // Exposed for debugging/support (harmless; standard practice for map apps).
@@ -149,7 +363,13 @@ const cluster = L.markerClusterGroup({
 map.addLayer(cluster);
 
 const customLayer = L.layerGroup().addTo(map);
-const originMarker = L.marker([0, 0], { draggable: true, title: 'Your in-game position' });
+const playerIcon = L.divIcon({
+  className: 'player-wrap',
+  html: '<div class="player-blip">▲</div>',
+  iconSize: [26, 26],
+  iconAnchor: [13, 13],
+});
+const originMarker = L.marker([0, 0], { draggable: true, title: 'Your in-game position', icon: playerIcon });
 
 function pinIcon(loc: GameLocation): L.DivIcon {
   const cat = CATEGORY_MAP[loc.category] ?? CATEGORY_MAP.other;
@@ -406,7 +626,11 @@ function updateWaypoint(dest: L.LatLng, destName: string): void {
     return;
   }
   if (waypointLine) waypointLine.remove();
-  waypointLine = L.polyline([origin, dest], { color: '#F05CA9', weight: 3, dashArray: '8 8' }).addTo(map);
+  // GPS route in the game's style: a solid purple line with a soft edge.
+  waypointLine = L.layerGroup([
+    L.polyline([origin, dest], { color: '#ffffff', opacity: 0.3, weight: 8 }),
+    L.polyline([origin, dest], { color: '#c05ce0', opacity: 0.95, weight: 4 }),
+  ]).addTo(map);
   const dist = Math.round(origin.distanceTo(dest) * MAP_CONFIG.gameUnitsPerMapUnit);
   $('#waypoint-info').textContent = `Waypoint: ${destName} — straight-line distance ≈ ${dist.toLocaleString()} m in-game. (Straight-line guidance only; no verified road-network routing data exists for Leonida.)`;
   map.flyToBounds(L.latLngBounds([origin, dest]).pad(0.15), { duration: 0.8 });
@@ -578,8 +802,9 @@ function escapeHtml(s: string): string {
 }
 
 /* ================= boot ================= */
-$('#attribution-line').textContent = `${MAP_CONFIG.attribution} · ${LABELS_CONFIG.attribution}`;
+$('#attribution-line').textContent = `${MAP_CONFIG.attribution} · ${LABELS_CONFIG.attribution} · ${WORLD_CONFIG.attribution}`;
 void loadLabels();
+void loadWorld();
 void loadLocations().then(() => {
   const hash = new URLSearchParams(location.hash.replace(/^#/, ''));
   const id = hash.get('loc');
