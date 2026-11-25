@@ -27,7 +27,7 @@ export const MAP_CONFIG = {
   maxZoom: 8, // beyond native 5 the base tiles magnify; the vector roads,
   // buildings and labels drawn over them stay crisp at every zoom
   attribution:
-    'Map data from Open GTA 6 Map (fbritoferreira), CC BY 4.0 — https://github.com/fbritoferreira/gta6 · Fan project, not affiliated with Rockstar Games or Take-Two Interactive',
+    'Map: <a href="https://github.com/fbritoferreira/gta6" target="_blank" rel="noopener">Open GTA 6 Map</a> (CC BY 4.0)',
   sourceName: 'Open GTA 6 Map (fbritoferreira)',
 };
 
@@ -41,7 +41,7 @@ export const MAP_CONFIG = {
 export const LABELS_CONFIG = {
   dataUrl: './data/labels.json',
   attribution:
-    'Labels: Open GTA 6 Map (fbritoferreira), CC BY 4.0 · GTA VI Landmarks Data (CC BY 4.0) — https://map.gtadb.org',
+    'Labels: <a href="https://map.gtadb.org" target="_blank" rel="noopener">GTADB</a> (CC BY 4.0)',
   /** Neighborhood/area labels appear from this zoom up. */
   neighborhoodMinZoom: 0.5,
   /** Landmark labels appear from this zoom up, viewport-only. */
@@ -60,8 +60,7 @@ export const WORLD_CONFIG = {
   roadsUrl: './data/roads.json',
   surfaceUrl: './data/surface.json',
   zonesUrl: './data/zones.json',
-  attribution:
-    'Roads, buildings & zones: Open GTA 6 Map (fbritoferreira), CC BY 4.0 — https://github.com/fbritoferreira/gta6',
+  attribution: '', // same source as the base map — credited in its line
   /** Building footprints appear from this zoom up (in-game behaviour). */
   buildingsMinZoom: 2,
 };

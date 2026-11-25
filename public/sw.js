@@ -1,5 +1,5 @@
 // Leonida Explorer service worker — offline app shell + runtime tile/data cache.
-const VERSION = 'leonida-v5';
+const VERSION = 'leonida-v6';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './data/locations.json', './data/labels.json'];
 
 self.addEventListener('install', (event) => {
