@@ -56,13 +56,29 @@ const nightLayer = L.tileLayer(MAP_CONFIG.tileUrlNight, {
   attribution: MAP_CONFIG.attribution,
 });
 nightLayer.addTo(map); // the dark base is the default — it is the in-game look
-$('#map').classList.add('dark-base');
 // The illustrated tiles carry their own painted roads, slightly drifted
-// from the source vector centrelines (the art pass moved them). Dimming
-// the dark base lets the crisp vector network read as THE roads, the
-// way the in-game map presents them.
+// from the source vector centrelines (the art pass moved them). A dark
+// veil over the dark base lets the crisp vector network read as THE
+// roads, the way the in-game map presents them. (A CSS filter on the
+// tile pane can blank the tiles on iOS Safari — a plain veil cannot.)
+map.createPane('dim');
+const dimPane = map.getPane('dim');
+if (dimPane) {
+  dimPane.style.zIndex = '300'; // above tiles (200), below world (420)
+  dimPane.style.pointerEvents = 'none';
+}
+const dimVeil = L.rectangle(bounds, {
+  pane: 'dim',
+  color: '#060a14',
+  opacity: 0,
+  fillColor: '#060a14',
+  fillOpacity: 0.32,
+  interactive: false,
+});
+dimVeil.addTo(map);
 map.on('baselayerchange', (e) => {
-  $('#map').classList.toggle('dark-base', e.layer === nightLayer);
+  if (e.layer === nightLayer) dimVeil.addTo(map);
+  else dimVeil.remove();
 });
 
 /* ---- labels layer (verbatim names from licensed data; see config) ---- */

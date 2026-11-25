@@ -196,9 +196,7 @@ body {
   font-weight: 700; font-size: 13px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
 }
-/* On the dark base, dim the illustrated tiles so their painted roads
-   recede and the vector road network reads as the map's roads. */
-#map.dark-base .leaflet-tile-pane { filter: brightness(0.72) saturate(0.78); }
+
 
 /* ---------- detail sheet ---------- */
 #detail-sheet {
